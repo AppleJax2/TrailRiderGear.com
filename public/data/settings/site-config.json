@@ -1,0 +1,56 @@
+{
+  "title": "TrailRider Gear",
+  "description": "Expert reviews and buying guides for e-bike accessories built for hunting, fishing, and outdoor adventures. Find the best gear for your electric bike expeditions.",
+  "url": "https://trailridergear.com",
+  "author": "TrailRider Gear Team",
+  "authorEmail": "info@trailridergear.com",
+  "authorWebsite": "https://trailridergear.com",
+  "authorAvatar": "/Favicon.png",
+  "locale": "en",
+  "ogImage": "/og-image.jpg",
+  "navItems": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Reviews",
+      "href": "/blog"
+    },
+    {
+      "label": "Categories",
+      "href": "/blog/category"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    }
+  ],
+  "postsPerPage": 10,
+  "recentPostsCount": 5,
+  "social": {
+    "twitter": "",
+    "github": "",
+    "linkedin": "",
+    "instagram": "",
+    "youtube": "",
+    "discord": ""
+  },
+  "features": {
+    "darkMode": true,
+    "search": true,
+    "comments": false,
+    "rss": true
+  },
+  "gaId": "",
+  "blogCTA": {
+    "enabled": true,
+    "title": "Get Gear Recommendations",
+    "description": "Join our newsletter for exclusive e-bike accessory guides and the best deals.",
+    "buttonText": "Subscribe",
+    "buttonUrl": "#newsletter",
+    "secondaryText": "No spam, just gear advice",
+    "showStats": false,
+    "stats": []
+  }
+}

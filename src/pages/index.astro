@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HeroSection from '../components/landing/HeroSection.astro';
+import ShowcaseSection from '../components/landing/ShowcaseSection.astro';
+import ProcessSection from '../components/landing/ProcessSection.astro';
+import BlogSection from '../components/landing/BlogSection.astro';
+import FAQSection from '../components/landing/FAQSection.astro';
+---
+
+<BaseLayout
+  title="TrailRider Gear - E-Bike Accessory Reviews for Outdoor Adventures"
+  description="Expert reviews and buying guides for e-bike accessories built for hunting, fishing, and outdoor adventures. Find the best gear for your electric bike expeditions."
+  hideSearch={false}
+  hideThemeToggle={false}
+  siteName="TrailRider Gear"
+>
+  <HeroSection />
+  <ShowcaseSection />
+  <ProcessSection />
+  <BlogSection />
+  <FAQSection />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json" is:inline>
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "TrailRider Gear",
+      "description": "Expert reviews and buying guides for e-bike accessories built for hunting, fishing, and outdoor adventures.",
+      "url": "https://trailridergear.com",
+      "author": {
+        "@type": "Organization",
+        "name": "TrailRider Gear",
+        "url": "https://trailridergear.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "TrailRider Gear",
+        "url": "https://trailridergear.com"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Hunting E-Bike Accessories"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Fishing Gear & Rod Holders"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Cargo Systems & Racks"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Navigation & Power Accessories"
+          }
+        ]
+      }
+    }
+  </script>
+</BaseLayout>

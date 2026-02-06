@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Affiliate Disclosure - TrailRider Gear"
+  description="TrailRider Gear affiliate disclosure policy. Learn how we earn commissions from affiliate links and maintain editorial independence."
+  breadcrumb={[
+    { name: 'Home', url: '/' },
+    { name: 'Affiliate Disclosure', url: '/affiliate-disclosure' }
+  ]}
+>
+  <div class="container py-24 lg:py-32">
+    <div class="max-w-4xl mx-auto">
+      <!-- Header -->
+      <div class="mb-16 text-center">
+        <h1 class="text-4xl lg:text-6xl font-display font-bold mb-6 leading-tight">
+          AFFILIATE<br>
+          <span class="text-text-muted">DISCLOSURE</span>
+        </h1>
+        <p class="text-xl text-text-muted max-w-2xl mx-auto">
+          Transparency is important to us. Learn how we fund our independent gear reviews.
+        </p>
+      </div>
+
+      <!-- Content -->
+      <div class="prose prose-lg max-w-none">
+        <div class="mb-12 p-8 bg-surface rounded-2xl border border-border">
+          <h2 class="text-2xl font-bold mb-4">Our Commitment to Transparency</h2>
+          <p class="text-text-muted mb-4">
+            TrailRider Gear is an affiliate marketing website. This means that when you click on certain links on our site and make a purchase, we may earn a commission at no additional cost to you. This disclosure is required by the Federal Trade Commission (FTC) and is part of our commitment to transparency.
+          </p>
+        </div>
+
+        <h2 class="text-2xl font-bold mb-4">How Affiliate Links Work</h2>
+        <p class="text-text-muted mb-6">
+          When you click on a link to Amazon or another retailer from our website, a tracking cookie is placed in your browser. If you make a purchase within a certain timeframe (typically 24 hours for Amazon), we receive a small percentage of the sale as a commission. This comes out of the retailer's profit margin, not from your pocket.
+        </p>
+
+        <h2 class="text-2xl font-bold mb-4">Editorial Independence</h2>
+        <p class="text-text-muted mb-6">
+          Our reviews and recommendations are based on thorough research, hands-on testing, and genuine expert opinion. We never accept payment for positive reviews, and our editorial decisions are made independently of any affiliate relationships. If a product does not meet our standards, we will tell you even if it means losing a potential commission.
+        </p>
+
+        <h2 class="text-2xl font-bold mb-4">Affiliate Partners</h2>
+        <p class="text-text-muted mb-4">
+          We currently participate in the following affiliate programs:
+        </p>
+        <ul class="list-disc pl-6 mb-6 text-text-muted space-y-2">
+          <li><strong>Amazon Associates:</strong> We are a participant in the Amazon Services LLC Associates Program</li>
+          <li><strong>REI:</strong> Affiliate partner for outdoor gear</li>
+          <li><strong>Walmart:</strong> For budget-friendly e-bike accessories</li>
+          <li><strong>Manufacturer Direct Programs:</strong> Some brands we review directly</li>
+        </ul>
+
+        <h2 class="text-2xl font-bold mb-4">How We Use the Money</h2>
+        <p class="text-text-muted mb-6">
+          Affiliate commissions help us:
+        </p>
+        <ul class="list-disc pl-6 mb-6 text-text-muted space-y-2">
+          <li>Purchase products for hands-on testing and review</li>
+          <li>Maintain and improve our website</li>
+          <li>Create high-quality content, guides, and resources</li>
+          <li>Cover operational costs to keep information free</li>
+        </ul>
+
+        <h2 class="text-2xl font-bold mb-4">Questions?</h2>
+        <p class="text-text-muted mb-6">
+          If you have any questions about our affiliate relationships or how we operate, please feel free to <a href="mailto:info@trailridergear.com" class="text-primary hover:underline">contact us</a>. We are committed to maintaining your trust.
+        </p>
+
+        <div class="mt-12 p-6 bg-surface/50 rounded-xl border border-border text-center">
+          <p class="text-sm text-text-muted">
+            Last updated: February 2025
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
