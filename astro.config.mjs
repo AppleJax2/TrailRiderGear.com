@@ -3,11 +3,11 @@ import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
 import react from '@astrojs/react';
 import markdoc from '@astrojs/markdoc';
-import node from '@astrojs/node';
+import netlify from '@astrojs/netlify';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astroseoblog.com',
+  site: 'https://trailbikegear.netlify.app',
   trailingSlash: 'never', // Enforce consistent URLs without trailing slashes
   integrations: [
     tailwind({
@@ -18,9 +18,7 @@ export default defineConfig({
     markdoc(),
   ],
   output: 'server',
-  adapter: node({
-    mode: 'standalone'
-  }),
+  adapter: netlify(),
   compressHTML: true,
   build: {
     inlineStylesheets: 'always', // Inline all stylesheets to prevent render blocking
