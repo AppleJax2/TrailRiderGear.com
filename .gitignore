@@ -16,6 +16,7 @@ pnpm-debug.log*
 # environment variables
 .env
 .env.production
+netlify-env-import.env
 
 # Environment variables template (allowed)
 !.env.example

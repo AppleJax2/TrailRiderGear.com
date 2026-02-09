@@ -38,12 +38,19 @@
     };
     
     const setTheme = (theme) => {
-      if (theme === 'dark') {
-        document.documentElement.classList.add('dark');
+      // If hero dark image exists, let HeroSection orchestrate the transition
+      var heroImg = document.getElementById('hero-dark-img');
+      if (heroImg) {
+        document.dispatchEvent(new CustomEvent('theme-will-change', { detail: { theme: theme } }));
       } else {
-        document.documentElement.classList.remove('dark');
+        // Fallback for pages without the hero
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+        localStorage.setItem('theme', theme);
       }
-      localStorage.setItem('theme', theme);
     };
     
     if (themeToggle) {

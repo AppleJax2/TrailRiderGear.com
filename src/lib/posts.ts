@@ -167,7 +167,8 @@ export async function getAllBlogPosts(language: string = DEFAULT_LANGUAGE): Prom
  */
 export async function getPublishedBlogPosts(language: string = DEFAULT_LANGUAGE): Promise<BlogPost[]> {
   const allPosts = await getAllBlogPosts(language);
-  return allPosts.filter(post => !post.data.draft);
+  const now = new Date();
+  return allPosts.filter(post => !post.data.draft && post.data.publishDate <= now);
 }
 
 /**

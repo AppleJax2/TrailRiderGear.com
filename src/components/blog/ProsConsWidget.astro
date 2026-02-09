@@ -1,0 +1,176 @@
+---
+export interface Props {
+  title?: string;
+  pros: string[];
+  cons: string[];
+}
+
+const { title = "Pros & Cons", pros = [], cons = [] } = Astro.props;
+---
+
+<div class="pros-cons-widget">
+  {title && <h4 class="widget-title">{title}</h4>}
+  
+  <div class="pros-cons-grid">
+    <div class="pros-section">
+      <div class="section-header">
+        <div class="icon pros-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"/>
+          </svg>
+        </div>
+        <h5>What We Like</h5>
+      </div>
+      <ul class="pros-list">
+        {pros.map((pro) => (
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            <span>{pro}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+    
+    <div class="cons-section">
+      <div class="section-header">
+        <div class="icon cons-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </div>
+        <h5>What Could Be Better</h5>
+      </div>
+      <ul class="cons-list">
+        {cons.map((con) => (
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"/>
+              <line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+            <span>{con}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<style>
+  .pros-cons-widget {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  
+  .widget-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    color: var(--color-text);
+  }
+  
+  .pros-cons-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+  
+  @media (max-width: 640px) {
+    .pros-cons-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .pros-section,
+  .cons-section {
+    padding: 1rem;
+    border-radius: 12px;
+  }
+  
+  .pros-section {
+    background: rgba(139, 157, 119, 0.1);
+    border: 1px solid rgba(139, 157, 119, 0.2);
+  }
+  
+  .cons-section {
+    background: rgba(100, 100, 100, 0.05);
+    border: 1px solid var(--color-border);
+  }
+  
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pros-icon {
+    background: rgba(139, 157, 119, 0.2);
+    color: var(--color-primary);
+  }
+  
+  .cons-icon {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+  }
+  
+  .section-header h5 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 0;
+    color: var(--color-text);
+  }
+  
+  .pros-list,
+  .cons-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+  
+  .pros-list li,
+  .cons-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  
+  .pros-list li svg {
+    color: var(--color-primary);
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+  }
+  
+  .cons-list li svg {
+    color: #ef4444;
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+  }
+  
+  .pros-list li span {
+    color: var(--color-text);
+  }
+  
+  .cons-list li span {
+    color: var(--color-text-muted);
+  }
+</style>

@@ -1,0 +1,116 @@
+---
+import { SITE_CONFIG } from '../../data/site-config';
+import ThemeToggle from './ThemeToggle.astro';
+
+const navItems = SITE_CONFIG.navItems as Array<{ label: string; href: string }>;
+const currentPath = Astro.url.pathname;
+---
+
+<nav class="fixed top-0 left-0 right-0 z-[110] bg-background/90 backdrop-blur-md border-b border-border/50">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Logo -->
+      <a href="/" class="flex items-center gap-3 flex-shrink-0" aria-label="Home">
+        <img src="/logo.png" alt="TrailRider Gear" class="w-14 h-14 object-contain" />
+        <span class="font-display text-lg tracking-tight hidden sm:block">TrailRider Gear</span>
+      </a>
+
+      <!-- Right side: theme toggle + hamburger -->
+      <div class="flex items-center gap-2">
+        <ThemeToggle />
+        <button
+          id="menu-toggle"
+          class="p-2 rounded-lg hover:bg-border transition-colors"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <!-- Hamburger icon -->
+          <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+          <!-- Close icon (hidden by default) -->
+          <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Menu Panel (outside nav to avoid stacking context issues) -->
+<div id="menu-panel" class="hidden fixed inset-0 z-[100]">
+  <!-- Backdrop -->
+  <div id="menu-backdrop" class="absolute inset-0 bg-black/20"></div>
+  <!-- Panel -->
+  <div class="absolute top-16 left-0 right-0 bg-background shadow-xl border-b border-border">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <ul class="flex flex-col gap-1">
+        {navItems.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              class={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
+                currentPath === item.href
+                  ? 'bg-accent-sage/20 text-accent-sage-hover'
+                  : 'hover:bg-border text-text'
+              }`}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
+        <li>
+          <a
+            href="/blog"
+            class={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
+              currentPath === '/blog'
+                ? 'bg-accent-sage/20 text-accent-sage-hover'
+                : 'hover:bg-border text-text'
+            }`}
+          >
+            All Guides
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const panel = document.getElementById('menu-panel');
+  const backdrop = document.getElementById('menu-backdrop');
+  const iconOpen = document.getElementById('menu-icon-open');
+  const iconClose = document.getElementById('menu-icon-close');
+
+  function closeMenu() {
+    panel?.classList.add('hidden');
+    iconOpen?.classList.remove('hidden');
+    iconClose?.classList.add('hidden');
+    toggle?.setAttribute('aria-expanded', 'false');
+  }
+
+  function openMenu() {
+    panel?.classList.remove('hidden');
+    iconOpen?.classList.add('hidden');
+    iconClose?.classList.remove('hidden');
+    toggle?.setAttribute('aria-expanded', 'true');
+  }
+
+  if (toggle && panel) {
+    toggle.addEventListener('click', () => {
+      const isOpen = !panel.classList.contains('hidden');
+      if (isOpen) closeMenu();
+      else openMenu();
+    });
+
+    // Close on backdrop click
+    backdrop?.addEventListener('click', closeMenu);
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeMenu();
+    });
+  }
+</script>

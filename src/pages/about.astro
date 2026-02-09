@@ -4,7 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 <BaseLayout
   title="About - TrailRider Gear"
-  description="Learn about TrailRider Gear - your trusted source for e-bike accessory reviews focused on hunting, fishing, and outdoor adventures."
+  description="Learn about TrailRider Gear - your trusted source for e-bike accessory buying guides focused on hunting, fishing, and outdoor adventures."
   breadcrumb={[
     { name: 'Home', url: '/' },
     { name: 'About', url: '/about' }
@@ -14,12 +14,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <div class="max-w-5xl mx-auto">
       <!-- Header -->
       <div class="mb-20">
+        <div class="mb-8">
+          <img src="/logo.png" alt="TrailRider Gear" class="w-40 lg:w-48 drop-shadow-lg" />
+        </div>
         <h1 class="text-5xl lg:text-7xl font-display font-bold mb-6 leading-tight">
           ABOUT<br>
           <span class="text-text-muted">TRAILRIDER GEAR</span>
         </h1>
         <p class="text-xl lg:text-2xl text-text-muted max-w-3xl">
-          Your trusted source for expert reviews of e-bike accessories built for hunting, fishing, and outdoor adventures.
+          Your trusted source for research-backed buying guides for e-bike accessories built for hunting, fishing, and outdoor adventures.
         </p>
       </div>
 
@@ -27,10 +30,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <div class="mb-24 pb-16 border-b border-border">
         <h2 class="text-3xl lg:text-4xl font-display font-bold mb-8">OUR MISSION</h2>
         <p class="text-lg lg:text-xl text-text-muted mb-6 leading-relaxed">
-          TrailRider Gear was founded by outdoor enthusiasts who recognized the growing potential of electric bikes for hunting, fishing, and backcountry exploration. We test and review e-bike accessories specifically designed to enhance your outdoor adventures.
+          TrailRider Gear aggregates real user reviews, manufacturer specifications, and community feedback to help hunters and anglers find the best e-bike accessories for their outdoor adventures. We link directly to verified products with actual manufacturer backing—no fictional items, no placeholder ASINs, no invented field tests.
         </p>
         <p class="text-lg lg:text-xl text-text-muted leading-relaxed">
-          Our mission is simple: help you find the best gear for your e-bike expeditions through honest, hands-on reviews and practical buying guides.
+          Our mission is simple: help you make informed gear decisions through honest, research-based recommendations drawn from real buyer experiences and verified product specifications.
         </p>
       </div>
 
@@ -41,24 +44,24 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <div>
             <h3 class="text-xl lg:text-2xl font-display font-bold mb-6">GEAR CATEGORIES</h3>
             <div class="space-y-4 text-lg text-text-muted">
-              <div>→ Hunting Racks & Gun Mounts</div>
-              <div>→ Fishing Rod Holders & Tackle Storage</div>
-              <div>→ Cargo Systems & Racks</div>
-              <div>→ Navigation & Power Accessories</div>
+              <div>→ Fishing Rod Holders & Accessories</div>
+              <div>→ Cargo Trailers & Rack Systems</div>
+              <div>→ Waterproof Panniers & Storage</div>
+              <div>→ Hunting E-Bikes & Accessories</div>
+              <div>→ Bike Racks & Transport</div>
               <div>→ Safety Gear & Lighting</div>
-              <div>→ Maintenance & Repair Kits</div>
             </div>
           </div>
 
           <div>
-            <h3 class="text-xl lg:text-2xl font-display font-bold mb-6">REVIEW PROCESS</h3>
+            <h3 class="text-xl lg:text-2xl font-display font-bold mb-6">RESEARCH PROCESS</h3>
             <div class="space-y-4 text-lg text-text-muted">
-              <div>→ Hands-on field testing</div>
-              <div>→ Real-world durability assessments</div>
-              <div>→ Comparative analysis with similar products</div>
-              <div>→ Value for money evaluation</div>
-              <div>→ Affiliate disclosure transparency</div>
-              <div>→ Regular content updates</div>
+              <div>→ Aggregated user reviews from forums & retail sites</div>
+              <div>→ Verified manufacturer specifications</div>
+              <div>→ Community feedback from hunting/fishing groups</div>
+              <div>→ Comparative analysis of similar products</div>
+              <div>→ Transparent affiliate disclosure</div>
+              <div>→ Regular content updates with new products</div>
             </div>
           </div>
         </div>
@@ -69,20 +72,20 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <h2 class="text-3xl lg:text-4xl font-display font-bold mb-12">OUR COVERAGE</h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div class="group">
-            <div class="text-3xl lg:text-4xl font-display font-bold mb-2 group-hover:scale-110 transition-transform">100+</div>
-            <div class="text-sm text-text-muted uppercase tracking-wider">Products Reviewed</div>
+            <div class="text-3xl lg:text-4xl font-display font-bold mb-2 group-hover:scale-110 transition-transform">52+</div>
+            <div class="text-sm text-text-muted uppercase tracking-wider">Products Researched</div>
           </div>
           <div class="group">
-            <div class="text-3xl lg:text-4xl font-display font-bold mb-2 group-hover:scale-110 transition-transform">50+</div>
-            <div class="text-sm text-text-muted uppercase tracking-wider">Field Tests</div>
+            <div class="text-3xl lg:text-4xl font-display font-bold mb-2 group-hover:scale-110 transition-transform">3</div>
+            <div class="text-sm text-text-muted uppercase tracking-wider">Buyer Guides</div>
           </div>
           <div class="group">
             <div class="text-3xl lg:text-4xl font-display font-bold mb-2 group-hover:scale-110 transition-transform">6</div>
             <div class="text-sm text-text-muted uppercase tracking-wider">Gear Categories</div>
           </div>
           <div class="group">
-            <div class="text-3xl lg:text-4xl font-display font-bold mb-2 group-hover:scale-110 transition-transform">EXPERT</div>
-            <div class="text-sm text-text-muted uppercase tracking-wider">Tested & Reviewed</div>
+            <div class="text-3xl lg:text-4xl font-display font-bold mb-2 group-hover:scale-110 transition-transform">100%</div>
+            <div class="text-sm text-text-muted uppercase tracking-wider">Real Products</div>
           </div>
         </div>
       </div>
@@ -91,13 +94,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <div class="mb-24">
         <h2 class="text-3xl lg:text-4xl font-display font-bold mb-8">THE TEAM</h2>
         <p class="text-lg lg:text-xl text-text-muted mb-6 leading-relaxed">
-          TrailRider Gear is run by a team of outdoor enthusiasts, hunters, and e-bike riders who test gear in real-world conditions so you can make informed buying decisions.
+          TrailRider Gear is run by outdoor enthusiasts who research and aggregate real user experiences from hunting, fishing, and e-bike communities. We combine manufacturer specifications with community feedback to bring you recommendations based on actual buyer experiences.
         </p>
         <p class="text-lg lg:text-xl text-text-muted mb-8 leading-relaxed">
-          We combine years of hunting, fishing, and backcountry experience with hands-on product testing to bring you recommendations you can trust.
+          We don't claim to personally test every product—we're transparent that our guides synthesize research from verified purchase reviews, outdoor gear publications, and manufacturer data. This lets us cover more gear with honest assessments rather than fabricated "field tests."
         </p>
         <div class="flex flex-wrap gap-4">
-          <a href="mailto:info@trailridergear.com" class="px-8 py-4 border-2 border-text rounded-full font-bold text-lg hover:bg-text hover:text-background transition-all hover:scale-105 inline-flex items-center gap-3">
+          <a href="mailto:editor@trailridergear.com" class="px-8 py-4 border-2 border-text rounded-full font-bold text-lg hover:bg-text hover:text-background transition-all hover:scale-105 inline-flex items-center gap-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
               <polyline points="22,6 12,13 2,6"></polyline>
@@ -112,7 +115,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <line x1="16" y1="17" x2="8" y2="17"></line>
               <polyline points="10,9 9,9 8,9"></polyline>
             </svg>
-            READ REVIEWS
+            READ GUIDES
           </a>
         </div>
       </div>
@@ -121,7 +124,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <div class="text-center pt-16 border-t border-border">
         <h3 class="text-2xl lg:text-3xl font-display font-bold mb-4">AFFILIATE DISCLOSURE</h3>
         <p class="text-lg text-text-muted max-w-2xl mx-auto">
-          TrailRider Gear is an affiliate marketing site. We earn commissions from qualifying purchases at no extra cost to you. This helps us fund our independent reviews. Read our <a href="/affiliate-disclosure" class="text-text hover:opacity-70 transition-opacity font-bold">full disclosure</a>.
+          TrailRider Gear is an affiliate marketing site. We earn commissions from qualifying purchases at no extra cost to you. This helps us fund our independent research. Read our <a href="/affiliate-disclosure" class="text-text hover:opacity-70 transition-opacity font-bold">full disclosure</a>.
         </p>
       </div>
     </div>
@@ -135,7 +138,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       "name": "TrailRider Gear",
       "url": "https://trailridergear.com",
       "description": "Expert reviews and buying guides for e-bike accessories built for hunting, fishing, and outdoor adventures.",
-      "logo": "https://trailridergear.com/Favicon.png",
+      "logo": "https://trailridergear.com/logo.png",
       "sameAs": [],
       "contactPoint": {
         "@type": "ContactPoint",

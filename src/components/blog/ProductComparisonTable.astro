@@ -1,0 +1,466 @@
+---
+export interface Product {
+  id: string;
+  name: string;
+  brand: string;
+  price: string;
+  rating: number;
+  bestFor: string;
+  weight: string;
+  capacity: string;
+  mountType: string;
+  weatherResistant: boolean;
+  quickRelease: boolean;
+  asin?: string;
+  amazonUrl?: string;
+}
+
+export interface Props {
+  products: Product[];
+  category: string;
+}
+
+const { products, category } = Astro.props;
+
+const affiliateTag = 'trailridergea-20';
+
+const getAmazonUrl = (product: Product) => {
+  return product.amazonUrl || (product.asin ? `https://www.amazon.com/dp/${product.asin}?tag=${affiliateTag}&linkCode=ll1` : '#');
+};
+
+const sortedProducts = [...products].sort((a, b) => b.rating - a.rating);
+---
+
+<div class="comparison-table-container">
+  <h3 class="comparison-title">Quick Comparison: Top {category}</h3>
+  
+  <div class="comparison-scroll">
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th class="product-col">Product</th>
+          <th>Best For</th>
+          <th>Price</th>
+          <th>Rating</th>
+          <th>Weight</th>
+          <th>Capacity</th>
+          <th>Mount</th>
+          <th>Weather</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {sortedProducts.map((product, index) => (
+          <tr class={index === 0 ? 'top-rated' : ''}>
+            <td class="product-cell">
+              <div class="product-info">
+                <span class="rank">#{index + 1}</span>
+                <div>
+                  <div class="brand">{product.brand}</div>
+                  <div class="name">{product.name}</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="tag best-for">{product.bestFor}</span>
+            </td>
+            <td>
+              <span class="price">{product.price}</span>
+            </td>
+            <td>
+              <div class="rating-cell">
+                <span class="rating-number">{product.rating.toFixed(1)}</span>
+                <div class="stars">
+                  {[1,2,3,4,5].map((star) => (
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      width="12" 
+                      height="12" 
+                      viewBox="0 0 24 24" 
+                      fill={star <= Math.round(product.rating) ? "currentColor" : "none"}
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      class={star <= Math.round(product.rating) ? 'star-filled' : 'star-empty'}
+                    >
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                    </svg>
+                  ))}
+                </div>
+              </div>
+            </td>
+            <td>{product.weight}</td>
+            <td>{product.capacity}</td>
+            <td>{product.mountType}</td>
+            <td>
+              {product.weatherResistant ? (
+                <span class="check-yes">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                </span>
+              ) : (
+                <span class="check-no">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                  </svg>
+                </span>
+              )}
+            </td>
+            <td>
+              <a 
+                href={getAmazonUrl(product)}
+                target="_blank"
+                rel="nofollow sponsored"
+                class="table-buy-btn"
+              >
+                View on Amazon
+              </a>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="mobile-cards">
+    {sortedProducts.map((product, index) => (
+      <div class={`mobile-card ${index === 0 ? 'top-rated' : ''}`}>
+        <div class="card-header">
+          <span class="rank-badge">#{index + 1}</span>
+          <div>
+            <div class="brand">{product.brand}</div>
+            <div class="name">{product.name}</div>
+          </div>
+        </div>
+        
+        <div class="card-grid">
+          <div class="card-stat">
+            <span class="label">Best For</span>
+            <span class="value tag">{product.bestFor}</span>
+          </div>
+          <div class="card-stat">
+            <span class="label">Price</span>
+            <span class="value price">{product.price}</span>
+          </div>
+          <div class="card-stat">
+            <span class="label">Rating</span>
+            <span class="value rating">{product.rating.toFixed(1)} ★</span>
+          </div>
+          <div class="card-stat">
+            <span class="label">Weight</span>
+            <span class="value">{product.weight}</span>
+          </div>
+        </div>
+        
+        <div class="card-features">
+          <span class={`feature-tag ${product.weatherResistant ? 'yes' : 'no'}`}>
+            {product.weatherResistant ? '✓ Weather Resistant' : '✗ Not Weather Resistant'}
+          </span>
+          <span class={`feature-tag ${product.quickRelease ? 'yes' : 'no'}`}>
+            {product.quickRelease ? '✓ Quick Release' : '✗ Fixed Mount'}
+          </span>
+        </div>
+        
+        <a 
+          href={getAmazonUrl(product)}
+          target="_blank"
+          rel="nofollow sponsored"
+          class="card-buy-btn"
+        >
+          Check Price on Amazon
+        </a>
+      </div>
+    ))}
+  </div>
+</div>
+
+<style>
+  .comparison-table-container {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    overflow: hidden;
+  }
+  
+  .comparison-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem 0;
+    color: var(--color-text);
+  }
+  
+  .comparison-scroll {
+    overflow-x: auto;
+    margin: 0 -1.5rem;
+    padding: 0 1.5rem;
+  }
+  
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+    min-width: 800px;
+  }
+  
+  .comparison-table th {
+    text-align: left;
+    padding: 0.75rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    font-size: 0.625rem;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid var(--color-border);
+    white-space: nowrap;
+  }
+  
+  .comparison-table td {
+    padding: 1rem 0.75rem;
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: middle;
+  }
+  
+  .comparison-table tbody tr:hover {
+    background: rgba(139, 157, 119, 0.05);
+  }
+  
+  .comparison-table tbody tr.top-rated {
+    background: rgba(139, 157, 119, 0.1);
+  }
+  
+  .comparison-table tbody tr.top-rated td {
+    border-bottom: 2px solid var(--color-primary);
+  }
+  
+  .product-col {
+    min-width: 200px;
+  }
+  
+  .product-cell {
+    font-weight: 500;
+  }
+  
+  .product-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .rank {
+    width: 28px;
+    height: 28px;
+    background: var(--color-primary);
+    color: var(--color-background);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  
+  .brand {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+  
+  .name {
+    font-weight: 600;
+    color: var(--color-text);
+  }
+  
+  .tag {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background: rgba(139, 157, 119, 0.15);
+    color: var(--color-primary);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .tag.best-for {
+    background: rgba(139, 157, 119, 0.2);
+    font-weight: 600;
+  }
+  
+  .price {
+    font-weight: 700;
+    color: var(--color-primary);
+    font-size: 1rem;
+  }
+  
+  .rating-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .rating-number {
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  
+  .stars {
+    display: flex;
+    gap: 0.125rem;
+  }
+  
+  .star-filled {
+    color: #f59e0b;
+  }
+  
+  .star-empty {
+    color: var(--color-border);
+  }
+  
+  .check-yes {
+    color: var(--color-primary);
+  }
+  
+  .check-no {
+    color: var(--color-text-muted);
+  }
+  
+  .table-buy-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #ff9900 0%, #ff7700 100%);
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+  }
+  
+  .table-buy-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(255, 119, 0, 0.3);
+  }
+  
+  .mobile-cards {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .comparison-scroll {
+      display: none;
+    }
+    
+    .mobile-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    .mobile-card {
+      background: var(--color-background);
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      padding: 1rem;
+    }
+    
+    .mobile-card.top-rated {
+      border: 2px solid var(--color-primary);
+      background: rgba(139, 157, 119, 0.05);
+    }
+    
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+    
+    .rank-badge {
+      width: 32px;
+      height: 32px;
+      background: var(--color-primary);
+      color: var(--color-background);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.875rem;
+      font-weight: 700;
+    }
+    
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    
+    .card-stat {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .card-stat .label {
+      font-size: 0.625rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--color-text-muted);
+    }
+    
+    .card-stat .value {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--color-text);
+    }
+    
+    .card-stat .value.price {
+      color: var(--color-primary);
+    }
+    
+    .card-stat .value.rating {
+      color: #f59e0b;
+    }
+    
+    .card-features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .feature-tag {
+      font-size: 0.75rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
+    
+    .feature-tag.yes {
+      background: rgba(139, 157, 119, 0.15);
+      color: var(--color-primary);
+    }
+    
+    .feature-tag.no {
+      background: rgba(100, 100, 100, 0.1);
+      color: var(--color-text-muted);
+    }
+    
+    .card-buy-btn {
+      display: block;
+      text-align: center;
+      padding: 0.75rem;
+      background: linear-gradient(135deg, #ff9900 0%, #ff7700 100%);
+      color: white;
+      border-radius: 8px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  }
+</style>

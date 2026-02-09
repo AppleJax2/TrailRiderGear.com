@@ -1,0 +1,96 @@
+---
+export interface Props {
+  src: string;
+  alt: string;
+  width?: number;
+  height?: number;
+  caption?: string;
+  class?: string;
+  loading?: 'lazy' | 'eager';
+  sizes?: string;
+}
+
+const {
+  src,
+  alt,
+  width = 800,
+  height,
+  caption,
+  class: className = '',
+  loading = 'lazy',
+  sizes = '(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 800px',
+} = Astro.props;
+
+const cloudName = import.meta.env.PUBLIC_CLOUDINARY_CLOUD_NAME || 'dmppi8kbu';
+
+// Build Cloudinary URL with transformations
+const buildUrl = (w: number, quality: number = 80) => {
+  // If src is already a full URL (e.g., Amazon image), use Cloudinary fetch mode
+  if (src.startsWith('http')) {
+    return `https://res.cloudinary.com/${cloudName}/image/fetch/f_auto,q_${quality},w_${w}/${src}`;
+  }
+  // Otherwise, use uploaded image path
+  return `https://res.cloudinary.com/${cloudName}/image/upload/f_auto,q_${quality},w_${w}/${src}`;
+};
+
+// Generate srcset for responsive images
+const widths = [400, 640, 800, 1024, 1280];
+const srcset = widths
+  .filter(w => w <= (width * 2))
+  .map(w => `${buildUrl(w)} ${w}w`)
+  .join(', ');
+
+const defaultSrc = buildUrl(width);
+const placeholderSrc = buildUrl(32, 20);
+---
+
+<figure class={`cloudinary-figure ${className}`}>
+  <div class="image-wrapper" style={height ? `aspect-ratio: ${width}/${height}` : ''}>
+    <img
+      src={defaultSrc}
+      srcset={srcset}
+      sizes={sizes}
+      alt={alt}
+      width={width}
+      height={height}
+      loading={loading}
+      decoding="async"
+      class="cloudinary-img"
+      style={`background-image: url(${placeholderSrc}); background-size: cover;`}
+    />
+  </div>
+  {caption && (
+    <figcaption class="image-caption">{caption}</figcaption>
+  )}
+</figure>
+
+<style>
+  .cloudinary-figure {
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+
+  .image-wrapper {
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+  }
+
+  .cloudinary-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    transition: opacity 0.3s ease;
+  }
+
+  .image-caption {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    text-align: center;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+    font-style: italic;
+  }
+</style>

@@ -1,0 +1,123 @@
+---
+export interface Props {
+  type?: 'tip' | 'warning' | 'info' | 'legal';
+  title?: string;
+}
+
+const { type = 'info', title } = Astro.props;
+
+const config = {
+  tip: {
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v1"/><path d="M12 21v1"/><path d="m4.93 4.93.7.7"/><path d="m17.66 17.66.7.7"/><path d="M2 12h1"/><path d="M21 12h1"/><path d="m4.93 19.07.7-.7"/><path d="m17.66 6.34.7-.7"/><circle cx="12" cy="12" r="4"/></svg>`,
+    defaultTitle: 'Pro Tip',
+    borderColor: 'var(--color-primary)',
+    bgColor: 'var(--color-primary)',
+  },
+  warning: {
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`,
+    defaultTitle: 'Watch Out',
+    borderColor: 'var(--color-accent-terracotta)',
+    bgColor: 'var(--color-accent-terracotta)',
+  },
+  info: {
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>`,
+    defaultTitle: 'Good to Know',
+    borderColor: 'var(--color-accent-clay)',
+    bgColor: 'var(--color-accent-clay)',
+  },
+  legal: {
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>`,
+    defaultTitle: 'Legal Note',
+    borderColor: 'var(--color-accent-warm-brown)',
+    bgColor: 'var(--color-accent-warm-brown)',
+  },
+};
+
+const { icon, defaultTitle, borderColor, bgColor } = config[type];
+const displayTitle = title || defaultTitle;
+---
+
+<div class="callout-box not-prose" style={`--callout-border: ${borderColor}; --callout-accent: ${bgColor};`} data-type={type}>
+  <div class="callout-header">
+    <span class="callout-icon" set:html={icon} />
+    <span class="callout-title">{displayTitle}</span>
+  </div>
+  <div class="callout-content">
+    <slot />
+  </div>
+</div>
+
+<style>
+  .callout-box {
+    border-left: 4px solid var(--callout-border);
+    background: var(--color-surface);
+    border-radius: 0 12px 12px 0;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .callout-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--callout-accent);
+    opacity: 0.04;
+    pointer-events: none;
+  }
+
+  .callout-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .callout-icon {
+    color: var(--callout-accent);
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .callout-title {
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--callout-accent);
+  }
+
+  .callout-content {
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    color: var(--color-text);
+    position: relative;
+  }
+
+  .callout-content :global(p) {
+    margin: 0;
+  }
+
+  .callout-content :global(p + p) {
+    margin-top: 0.5rem;
+  }
+
+  .callout-content :global(a) {
+    color: var(--callout-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .callout-content :global(a:hover) {
+    opacity: 0.8;
+  }
+
+  .callout-content :global(strong) {
+    font-weight: 600;
+  }
+</style>

@@ -1,0 +1,414 @@
+{
+  "meta": {
+    "description": "Master content schedule for TrailRiderGear.com. Prioritized by keyword search volume and commercial intent from kwrds.ai data (Feb 2026). Each post maps to products in scripts/product-library.json. Status: planned | in-progress | draft | published. Tier 1 = highest ROI (write first), Tier 2 = solid demand, Tier 3 = supporting content, Tier 4 = deprioritized.",
+    "lastUpdated": "2026-02-08",
+    "productLibrary": "scripts/product-library.json"
+  },
+  "posts": [
+    {
+      "id": 1,
+      "slug": "ebike-fishing-rod-holders-guide",
+      "title": "The Best E-Bike Fishing Rod Holders",
+      "category": "fishing-gear",
+      "status": "published",
+      "tier": "published",
+      "targetPublishDate": "2026-02-06",
+      "actualPublishDate": "2026-02-06",
+      "notes": "Covers Bike Fisherman, GearTrust, AteamProducts. 3 product cards.",
+      "productAsins": ["B08F4CYHNH", "B0G6ZJFDSL", "B07Z5GB3L7"]
+    },
+    {
+      "id": 2,
+      "slug": "ebike-cargo-trailers-racks-guide",
+      "title": "The Best E-Bike Cargo Trailers and Racks",
+      "category": "cargo-systems",
+      "status": "published",
+      "tier": "published",
+      "targetPublishDate": "2026-02-07",
+      "actualPublishDate": "2026-02-07",
+      "notes": "Covers Burley Flatbed/Nomad, Thule, Topeak, Planet Bike. 5 product cards.",
+      "productAsins": ["B00K4VLBRQ", "B0BW26F72R", "B009XMO9BM", "B0B6132N63", "B000SPMU9Q"]
+    },
+    {
+      "id": 3,
+      "slug": "ebike-waterproof-panniers-guide",
+      "title": "The Best Waterproof E-Bike Panniers",
+      "category": "storage-systems",
+      "status": "published",
+      "tier": "published",
+      "targetPublishDate": "2026-02-08",
+      "actualPublishDate": "2026-02-08",
+      "notes": "Covers Ortlieb, QuietKat, Thule Shield. 3+ product cards.",
+      "productAsins": ["B00T6IR7B2", "B087442V54", "B016Q7WFF8", "B09RQ479DL", "B00NTAB502"]
+    },
+
+    {
+      "id": 4,
+      "slug": "best-hunting-ebikes-2026",
+      "title": "The Best Electric Bikes for Hunting in 2026",
+      "category": "hunting-ebikes",
+      "status": "draft",
+      "tier": 1,
+      "targetPublishDate": "2026-02-09",
+      "actualPublishDate": "2026-02-08",
+      "keywords": {
+        "primary": "best ebike for hunting",
+        "secondary": ["best off road electric bike for hunting", "off road electric bike for hunting", "what is the best ebike for hunting"],
+        "combinedVolume": 830,
+        "intent": "Commercial",
+        "cpc": "$3.61",
+        "competition": "HIGH"
+      },
+      "notes": "HIGHEST PRIORITY. Directly targets our niche. Feature QuietKat, PHILODO, FREESKY hunting-marketed bikes. Compare fat tire hunting e-bikes with features hunters care about: stealth (low noise), cargo capacity, range for backcountry access, camo options. Cross-link to accessory guides.",
+      "productAsins": ["B0F7FQ5VYX", "B0FBJYRDD7", "B0F3JQ4212", "B0GDM5QRDK", "B0DK9J5TN3"]
+    },
+    {
+      "id": 5,
+      "slug": "best-high-performance-offroad-ebikes",
+      "title": "The Best High-Performance Off-Road Electric Bikes",
+      "category": "offroad-ebikes",
+      "status": "draft",
+      "tier": 1,
+      "targetPublishDate": "2026-02-10",
+      "actualPublishDate": "2026-02-08",
+      "keywords": {
+        "primary": "high performance electric bikes",
+        "secondary": ["high powered e bike", "e bike 30 mph", "fastest off road ebike", "best off road electric bikes"],
+        "combinedVolume": 22300,
+        "intent": "General/Commercial",
+        "cpc": "$0.38-$3.49",
+        "competition": "LOW to HIGH (primary keyword LOW comp = goldmine)"
+      },
+      "notes": "MASSIVE volume opportunity. 'high performance electric bikes' is 12,100/mo at LOW competition. Feature dual-motor beasts, BAFANG-powered bikes, 40+ MPH machines. Compare wattage, torque, suspension, range. Link to hunting guide for hunting-specific angle.",
+      "productAsins": ["B0F7FQ5VYX", "B0GDM5QRDK", "B0FG83PXL4", "B0FDW4TT5V", "B0FNMRQ472", "B0FDG79Z9C"]
+    },
+    {
+      "id": 6,
+      "slug": "best-offroad-ebikes-2026",
+      "title": "The Best Off-Road Electric Bikes for Trail Riding in 2026",
+      "category": "offroad-ebikes",
+      "status": "draft",
+      "tier": 1,
+      "targetPublishDate": "2026-02-11",
+      "actualPublishDate": "2026-02-09",
+      "keywords": {
+        "primary": "best off road electric bikes",
+        "secondary": ["off road ebike reviews", "off road e bikes for adults", "best off road ebike 2025"],
+        "combinedVolume": 4560,
+        "intent": "Commercial",
+        "cpc": "$3.49-$5.72",
+        "competition": "HIGH"
+      },
+      "notes": "High CPC = buyers are actively shopping. Broader than hunting — covers trail riding, camping, general off-road. Feature Himiway, ENGWE, FREESKY, PUCKIPUPPY. Cross-link to hunting guide and high-performance guide.",
+      "productAsins": ["B0F7FQ5VYX", "B0GDM5QRDK", "B0FBJYRDD7", "B0DK9J5TN3", "B0CQNRQS5W"]
+    },
+    {
+      "id": 7,
+      "slug": "must-have-ebike-accessories-hunting-fishing",
+      "title": "The Must-Have E-Bike Accessories for Hunting and Fishing",
+      "category": "ebike-accessories",
+      "status": "planned",
+      "tier": 1,
+      "targetPublishDate": "2026-02-12",
+      "actualPublishDate": null,
+      "keywords": {
+        "primary": "must have bike accessories",
+        "secondary": ["best ebike accessories", "top 5 electric bike accessories", "best accessories for electric bikes", "ebike accessories amazon", "cool ebike accessories"],
+        "combinedVolume": 3210,
+        "intent": "Commercial",
+        "cpc": "$0.51",
+        "competition": "HIGH"
+      },
+      "notes": "PILLAR PAGE linking to all accessory guides. Roundup of top accessories across categories. Feature 1-2 products from each category. Drives internal links to every other guide on the site. Also cross-link to e-bike guides.",
+      "productAsins": ["B08F4CYHNH", "B00K4VLBRQ", "B00T6IR7B2", "B09M7WM6Z9", "B0868WD176", "B0CG96T4MC"]
+    },
+    {
+      "id": 8,
+      "slug": "best-ebike-helmets-offroad",
+      "title": "The Best Off-Road E-Bike Helmets for Trail Riding",
+      "category": "safety-gear",
+      "status": "planned",
+      "tier": 2,
+      "targetPublishDate": "2026-02-13",
+      "actualPublishDate": null,
+      "keywords": {
+        "primary": "off road motorbike helmet",
+        "secondary": ["off road bicycle helmet"],
+        "combinedVolume": 1600,
+        "intent": "General",
+        "cpc": "$0.38",
+        "competition": "MEDIUM"
+      },
+      "notes": "Validated by keyword data. MIPS technology, full-face vs open-face for e-bike speeds, ventilation, camo options. Products need to be researched (not yet in library).",
+      "productAsins": []
+    },
+    {
+      "id": 9,
+      "slug": "best-ebike-trailer-hitches-adapters",
+      "title": "The Best E-Bike Trailer Hitches and Adapters",
+      "category": "cargo-systems",
+      "status": "planned",
+      "tier": 2,
+      "targetPublishDate": "2026-02-14",
+      "actualPublishDate": null,
+      "keywords": {
+        "primary": "e bike trailer hitch",
+        "secondary": ["e bike trailer hitch rack", "bike trailer accessories"],
+        "combinedVolume": 1210,
+        "intent": "General/Commercial",
+        "cpc": "$0.51",
+        "competition": "MEDIUM",
+        "trend": "+51%"
+      },
+      "notes": "Strong trending keyword. Universal hitches, thru-axle adapters, fat tire bike compatibility. Burley hitch system, Schwinn, Allen Sports. Cross-link to cargo trailers guide.",
+      "productAsins": ["B0868WD176", "B00K4VLBRQ", "B0BW26F72R"]
+    },
+    {
+      "id": 10,
+      "slug": "best-ebike-handlebar-bags-quick-access-gear",
+      "title": "The Best E-Bike Handlebar Bags for Quick-Access Gear",
+      "category": "storage-systems",
+      "status": "planned",
+      "tier": 2,
+      "targetPublishDate": "2026-02-15",
+      "actualPublishDate": null,
+      "keywords": {
+        "primary": "bike gear bag",
+        "secondary": ["bike accessory bag"],
+        "combinedVolume": 1200,
+        "intent": "General",
+        "cpc": "$0.51",
+        "competition": "MEDIUM"
+      },
+      "notes": "Validated by keyword data. Revelate Designs, Brooks England, Topeak. Snacks, phone, maps, ammo, small tackle.",
+      "productAsins": ["B09M7WM6Z9", "B00J43XG3W"]
+    },
+    {
+      "id": 11,
+      "slug": "best-budget-offroad-ebikes",
+      "title": "The Best Budget Off-Road Electric Bikes Under $1,000",
+      "category": "budget-ebikes",
+      "status": "planned",
+      "tier": 2,
+      "targetPublishDate": "2026-02-16",
+      "actualPublishDate": null,
+      "keywords": {
+        "primary": "cheapest fast ebike",
+        "secondary": ["cheapest off road bike"],
+        "combinedVolume": 2570,
+        "intent": "Commercial",
+        "cpc": "$0.38",
+        "competition": "HIGH"
+      },
+      "notes": "Budget buyer intent. Feature sub-$1000 e-bikes. Jasion EB5 ($199), GOKEEP ($530), Kebiko ($899), FREESKY 2000W ($899). Compare bang-for-buck, range, motor power.",
+      "productAsins": ["B09L63HGDP", "B0FG74R72R", "B0CG96T4MC", "B0DKF2LWKR", "B0D91N7QYY", "B0DK9J5TN3"]
+    },
+    {
+      "id": 12,
+      "slug": "best-ebike-gun-racks-hunting",
+      "title": "The Best E-Bike Gun Racks for Hunting",
+      "category": "hunting-accessories",
+      "status": "planned",
+      "tier": 2,
+      "targetPublishDate": "2026-02-17",
+      "actualPublishDate": null,
+      "keywords": {
+        "primary": "ebike gun rack",
+        "secondary": ["hunting ebike accessories"],
+        "combinedVolume": 400,
+        "intent": "Commercial",
+        "cpc": "N/A",
+        "competition": "LOW"
+      },
+      "notes": "Niche but directly supports hunting audience. Research gun scabbards, handlebar mounts, frame-mounted racks. BAKCOU, Rambo, QuietKat offerings. Products not yet in library — most sold direct, not on Amazon.",
+      "productAsins": []
+    },
+
+    {
+      "id": 13,
+      "slug": "best-ebike-phone-gps-mounts",
+      "title": "The Best E-Bike Phone and GPS Mounts for Trail Navigation",
+      "category": "navigation-power",
+      "status": "planned",
+      "tier": 3,
+      "targetPublishDate": "2026-02-18",
+      "actualPublishDate": null,
+      "keywords": {
+        "primary": "ebike phone mount",
+        "secondary": ["gps mount for ebike"],
+        "combinedVolume": null,
+        "intent": "Commercial",
+        "note": "Needs separate keyword research — likely has decent volume"
+      },
+      "notes": "Quad Lock, RAM Mount, Rokform. Waterproof options, vibration dampening. Products need research.",
+      "productAsins": []
+    },
+    {
+      "id": 14,
+      "slug": "best-ebike-lights-hunting-fishing",
+      "title": "The Best E-Bike Lights for Early Morning Hunts and Night Fishing",
+      "category": "safety-gear",
+      "status": "planned",
+      "tier": 3,
+      "targetPublishDate": "2026-02-19",
+      "actualPublishDate": null,
+      "keywords": {
+        "primary": "best ebike lights",
+        "secondary": ["ebike headlight"],
+        "combinedVolume": null,
+        "intent": "Commercial",
+        "note": "Needs separate keyword research — 'best bike lights' is huge but competitive"
+      },
+      "notes": "High-lumen headlights, tail lights, helmet lights. Focus on dawn/dusk use cases. Products need research.",
+      "productAsins": []
+    },
+    {
+      "id": 15,
+      "slug": "best-ebike-locks-remote-trailheads",
+      "title": "The Best E-Bike Locks for Remote Trailheads",
+      "category": "safety-gear",
+      "status": "planned",
+      "tier": 3,
+      "targetPublishDate": "2026-02-20",
+      "actualPublishDate": null,
+      "keywords": {
+        "primary": "best ebike lock",
+        "secondary": ["ebike theft prevention"],
+        "combinedVolume": null,
+        "intent": "Commercial",
+        "note": "Needs separate keyword research"
+      },
+      "notes": "Heavy-duty U-locks, chain locks, GPS trackers. Kryptonite, ABUS, Litelok. Products need research.",
+      "productAsins": []
+    },
+    {
+      "id": 16,
+      "slug": "best-portable-battery-packs-ebike-adventures",
+      "title": "The Best Portable Battery Packs for E-Bike Adventures",
+      "category": "navigation-power",
+      "status": "planned",
+      "tier": 3,
+      "targetPublishDate": "2026-02-21",
+      "actualPublishDate": null,
+      "keywords": {
+        "primary": "biggest ebike battery",
+        "secondary": ["which ebike has the longest range"],
+        "combinedVolume": 350,
+        "intent": "Informational",
+        "cpc": "$0.38",
+        "competition": "MEDIUM"
+      },
+      "notes": "Power banks, solar chargers, USB charging. Anker, Goal Zero, BioLite. Products need research.",
+      "productAsins": []
+    },
+    {
+      "id": 17,
+      "slug": "best-ebike-cooler-bags-fishing-hunting",
+      "title": "The Best E-Bike Cooler Bags for Fishing and Hunting Trips",
+      "category": "storage-systems",
+      "status": "planned",
+      "tier": 3,
+      "targetPublishDate": "2026-02-22",
+      "actualPublishDate": null,
+      "notes": "Rack-mounted coolers, insulated panniers, soft coolers. Keep catch fresh. Products need research.",
+      "productAsins": []
+    },
+    {
+      "id": 18,
+      "slug": "best-ebike-bow-mounts-archery-hunting",
+      "title": "The Best E-Bike Bow Mounts for Archery Hunting",
+      "category": "hunting-accessories",
+      "status": "planned",
+      "tier": 3,
+      "targetPublishDate": "2026-02-23",
+      "actualPublishDate": null,
+      "notes": "Compound bow and crossbow mounting. BAKCOU accessories. Zero keyword volume found but supports hunting niche audience.",
+      "productAsins": []
+    },
+    {
+      "id": 19,
+      "slug": "best-ebike-frame-bags-bikepacking-hunting",
+      "title": "The Best E-Bike Frame Bags for Bikepacking and Hunting Trips",
+      "category": "storage-systems",
+      "status": "planned",
+      "tier": 3,
+      "targetPublishDate": "2026-02-24",
+      "actualPublishDate": null,
+      "notes": "Full-frame, half-frame, top tube bags. Revelate, Apidura. Battery clearance issues on e-bikes.",
+      "productAsins": []
+    },
+    {
+      "id": 20,
+      "slug": "best-ebike-tackle-storage-bags",
+      "title": "The Best E-Bike Tackle Storage Bags and Boxes",
+      "category": "fishing-gear",
+      "status": "planned",
+      "tier": 3,
+      "targetPublishDate": "2026-02-25",
+      "actualPublishDate": null,
+      "notes": "Frame bags, handlebar bags, rack-top boxes. Waterproof options. Zero keyword volume but supports fishing audience.",
+      "productAsins": []
+    },
+
+    {
+      "id": 21,
+      "slug": "best-ebike-fenders-mudguards-trail-riding",
+      "title": "The Best E-Bike Fenders and Mudguards for Trail Riding",
+      "category": "cargo-systems",
+      "status": "planned",
+      "tier": 4,
+      "targetPublishDate": "2026-02-26",
+      "actualPublishDate": null,
+      "notes": "DEPRIORITIZED: Zero keyword volume found. Write only for internal linking. SKS, Mucky Nutz, PDW.",
+      "productAsins": []
+    },
+    {
+      "id": 22,
+      "slug": "best-ebike-game-carts-deer-hauling",
+      "title": "The Best E-Bike Game Carts and Deer Hauling Solutions",
+      "category": "hunting-accessories",
+      "status": "planned",
+      "tier": 4,
+      "targetPublishDate": "2026-02-27",
+      "actualPublishDate": null,
+      "notes": "DEPRIORITIZED: Zero keyword volume. Niche hunting content. Write after Tier 1-3 complete.",
+      "productAsins": []
+    },
+    {
+      "id": 23,
+      "slug": "best-ebike-mirrors-trail-safety",
+      "title": "The Best E-Bike Mirrors for Trail Safety",
+      "category": "safety-gear",
+      "status": "planned",
+      "tier": 4,
+      "targetPublishDate": "2026-02-28",
+      "actualPublishDate": null,
+      "notes": "DEPRIORITIZED: Zero keyword volume. Write only for internal linking support.",
+      "productAsins": []
+    },
+    {
+      "id": 24,
+      "slug": "best-ebike-tire-repair-kits-remote-trails",
+      "title": "The Best E-Bike Tire Repair Kits for Remote Trails",
+      "category": "safety-gear",
+      "status": "planned",
+      "tier": 4,
+      "targetPublishDate": "2026-03-01",
+      "actualPublishDate": null,
+      "notes": "DEPRIORITIZED: Zero keyword volume. Supporting content only.",
+      "productAsins": []
+    },
+    {
+      "id": 25,
+      "slug": "best-ebike-kickstands-heavy-loads",
+      "title": "The Best E-Bike Kickstands for Heavy Loads",
+      "category": "cargo-systems",
+      "status": "planned",
+      "tier": 4,
+      "targetPublishDate": "2026-03-02",
+      "actualPublishDate": null,
+      "notes": "DEPRIORITIZED: Zero keyword volume. Supporting content only.",
+      "productAsins": []
+    }
+  ]
+}

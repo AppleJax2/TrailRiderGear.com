@@ -1,0 +1,1334 @@
+{
+  "lastUpdated": "2026-02-09T01:00:30.931Z",
+  "totalProducts": 39,
+  "summary": {
+    "ebikes": 21,
+    "accessories": 18,
+    "verified": 18,
+    "puppeteerScraped": 9,
+    "fromPublishedPosts": 11
+  },
+  "products": [
+    {
+      "asin": "B0FBJYRDD7",
+      "id": "freesky-ranger-air",
+      "category": "hunting-ebike",
+      "targetPosts": [
+        "best-hunting-ebikes-2026",
+        "best-offroad-ebikes-2026"
+      ],
+      "status": "PUPPETEER_SCRAPED",
+      "name": "Ranger AIR Dual Motor 3500W Electric Bike",
+      "brand": "FREESKY",
+      "price": "$999.00",
+      "rating": 4.9,
+      "reviewCount": 76,
+      "image": "https://m.media-amazon.com/images/I/71NcRsyBoFL._AC_SX522_.jpg",
+      "features": [
+        "3500W AI Dual Motor with smart power distribution",
+        "105-mile range with 48V 25Ah removable battery",
+        "Full suspension + 26\" fat tires + step-through frame",
+        "7 riding modes including dual/single motor",
+        "NFC keyless unlock smart LCD display"
+      ],
+      "_fullTitle": "FREESKY Ranger AIR Dual Motor Electric Bike for Adults, 3500W 200NM Fast Ebike,105Miles Long Range E Bike,Full Suspension Electric Mountain Bike, 26'' Fat Tire Electric Bicycle for Man Womens Hunters",
+      "_availability": "Only 2 left in stock - order soon.",
+      "amazonUrl": "https://www.amazon.com/dp/B0FBJYRDD7?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "fetchedAt": "2026-02-09T01:00:30.922Z"
+    },
+    {
+      "asin": "B0F3JQ4212",
+      "id": "philodo-falcon-hunting",
+      "category": "hunting-ebike",
+      "targetPosts": [
+        "best-hunting-ebikes-2026"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:51:57.349Z",
+      "name": "Electric-Bike for Adults, Dual-Motor-Ebike Hunting-Ebike 5000W",
+      "brand": "PHILODO",
+      "price": "$1,399",
+      "rating": 3.8,
+      "reviewCount": 8,
+      "image": "https://m.media-amazon.com/images/I/81045zT6JbL._AC_SX679_.jpg",
+      "features": [
+        "🚀 Unleash Peak Power – The PHILODO Falcon electric bike for adults features a dual-motor (2x 2500W)system delivering 210N·M of torque, conquering steep 45° inclines and rugged terrain with ease. Hit speeds up to 45MiIe P-Hour—perfect for off-road adventures, trail riding, and fast commuting. No compromises on power or performance!",
+        "🔋 Long-Range 60V 32AH Battery – The PHILODO Falcon dual motor electric bike features a high-capacity lithium-ion battery, delivering up to 100 miles in PAS mode (50 miles in full electric mode). With a 10-12 hour recharge time and real-time battery level display, this e-bike ensures extended adventures, off-road touring, and daily commutes without range anxiety. Ride farther, ride smarter!",
+        "🌟 Pro-Grade Full Suspension & Fat 24\" Tires – The PHILODO Falcon dual motor ebike features a lockable & adjustable front fork + rear air shock system, delivering superior off-road comfort and impact reduction vs. standard shocks. Paired with all-terrain fat tires, this electric bike ensures maximum traction on sand, snow, trails, and city streets—dominate any terrain with confidence!",
+        "🔄 6 Versatile Riding Modes – The PHILODO Falcon ebike lets you customize every ride with Dual Motor/Single Motor Electric, Pedal Assist, Walk, Cruise & Bike modes. Switch between max speed (Class 3), efficiency (Class 1/2) or leisure riding—all while complying with local e-bike laws via adjustable display settings. Ride your way, anywhere!",
+        "🛡️ Hassle-Free 1-Year Warranty – Your PHILODO Falcon ebike comes with full manufacturer protection against defects, backed by our 24-hour response customer care team. Pro tip: Keep the original box for 30 days to streamline any potential returns. Ride with confidence—we’ve got your back!"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0F3JQ4212?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "PHILODO Electric-Bike for Adults, Dual-Motor-Ebike Hunting-Ebike 5000W, 60V 32AH Long Range Dirtbike, Fat-Tire-Electric-Bicycle, Full Suspension for Off-Road Snow Sand",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/81045zT6JbL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81l38DLwIJL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81f--Z9yTML._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71m2+TdZUlL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71NrJ1fctFL._AC_SL1500_.jpg"
+      ],
+      "_availability": "In Stock",
+      "_allFeatures": [
+        "🚀 Unleash Peak Power – The PHILODO Falcon electric bike for adults features a dual-motor (2x 2500W)system delivering 210N·M of torque, conquering steep 45° inclines and rugged terrain with ease. Hit speeds up to 45MiIe P-Hour—perfect for off-road adventures, trail riding, and fast commuting. No compromises on power or performance!",
+        "🔋 Long-Range 60V 32AH Battery – The PHILODO Falcon dual motor electric bike features a high-capacity lithium-ion battery, delivering up to 100 miles in PAS mode (50 miles in full electric mode). With a 10-12 hour recharge time and real-time battery level display, this e-bike ensures extended adventures, off-road touring, and daily commutes without range anxiety. Ride farther, ride smarter!",
+        "🌟 Pro-Grade Full Suspension & Fat 24\" Tires – The PHILODO Falcon dual motor ebike features a lockable & adjustable front fork + rear air shock system, delivering superior off-road comfort and impact reduction vs. standard shocks. Paired with all-terrain fat tires, this electric bike ensures maximum traction on sand, snow, trails, and city streets—dominate any terrain with confidence!",
+        "🔄 6 Versatile Riding Modes – The PHILODO Falcon ebike lets you customize every ride with Dual Motor/Single Motor Electric, Pedal Assist, Walk, Cruise & Bike modes. Switch between max speed (Class 3), efficiency (Class 1/2) or leisure riding—all while complying with local e-bike laws via adjustable display settings. Ride your way, anywhere!",
+        "🛡️ Hassle-Free 1-Year Warranty – Your PHILODO Falcon ebike comes with full manufacturer protection against defects, backed by our 24-hour response customer care team. Pro tip: Keep the original box for 30 days to streamline any potential returns. Ride with confidence—we’ve got your back!"
+      ]
+    },
+    {
+      "asin": "B0C6B7KVPB",
+      "id": "quietkat-apex-10",
+      "category": "hunting-ebike",
+      "targetPosts": [
+        "best-hunting-ebikes-2026"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:51:42.298Z",
+      "name": "22 APX 10 MGR 17 2022 Apex 10 E-Bike - 1000W, 17\" Frame, Midnight Green",
+      "brand": "QuietKat",
+      "price": "Check Amazon for price",
+      "rating": 0,
+      "reviewCount": 0,
+      "image": "https://m.media-amazon.com/images/I/51Vq-gx5AQL._AC_SX679_.jpg",
+      "features": [
+        "Color: Midnight Green",
+        "Frame Size: 17”"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0C6B7KVPB?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "QuietKat 22 APX 10 MGR 17 2022 Apex 10 E-Bike - 1000W, 17\" Frame, Midnight Green",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/51Vq-gx5AQL._AC_.jpg"
+      ],
+      "_availability": "Currently unavailable. We don't know when or if this item will be back in stock.",
+      "_allFeatures": [
+        "Color: Midnight Green",
+        "Frame Size: 17”"
+      ]
+    },
+    {
+      "asin": "B07SJR52BW",
+      "id": "quietkat-apex-2019",
+      "category": "hunting-ebike",
+      "targetPosts": [
+        "best-hunting-ebikes-2026"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:51:49.912Z",
+      "name": "2019 Apex 1000W Electric Bike for Backcountry",
+      "brand": "QuietKat",
+      "price": "Check Amazon for price",
+      "rating": 0,
+      "reviewCount": 0,
+      "image": "https://m.media-amazon.com/images/I/71y04t0iGcL._AC_SX679_.jpg",
+      "features": [
+        "Motor: BBSHD Mid Drive 1000 Watt",
+        "Display: Digital-Color",
+        "Battery: 48v/11. 6ah Panasonic",
+        "Frame Sizes: 19” (M/L)",
+        "Brakes: 2 Piston Hydraulic | 203mm Rotor"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B07SJR52BW?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "QuietKat 2019 Apex 1000W Electric Bike for Backcountry",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/71y04t0iGcL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/717wiCLjZ0L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71D7guDI9jL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71Hk2IOXYDL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61b37CeA4FL._AC_SL1500_.jpg"
+      ],
+      "_availability": "Currently unavailable. We don't know when or if this item will be back in stock.",
+      "_allFeatures": [
+        "Motor: BBSHD Mid Drive 1000 Watt",
+        "Display: Digital-Color",
+        "Battery: 48v/11. 6ah Panasonic",
+        "Frame Sizes: 19” (M/L)",
+        "Brakes: 2 Piston Hydraulic | 203mm Rotor",
+        "Fork: GT Air Suspension 100mm",
+        "Wheel/Tire: 26″ x 4. 5″ (Fat Bike)"
+      ]
+    },
+    {
+      "asin": "B0C4PFWX6X",
+      "id": "engwe-m20",
+      "category": "offroad-ebike",
+      "targetPosts": [
+        "best-offroad-ebikes-2026",
+        "best-budget-offroad-ebikes"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:52:14.911Z",
+      "name": "M20 Electric Bike for Adults - 1000W 28mph Moped Ebike 48V13A Single/48V26A Dual…",
+      "brand": "ENGWE",
+      "price": "Check Amazon for price",
+      "rating": 4.2,
+      "reviewCount": 19,
+      "image": "https://m.media-amazon.com/images/I/71Mf2wUWKIL._AC_SX679_.jpg",
+      "features": [
+        "【Powerful Performance with 1000W Peak Motor & 55N.m Torque】 The ENGWE M20 electric bike, with its 48V/750W brushless motor peaking at 1000W and 55N.m torque, reaches speeds of 28 mph. Ideal for off-road adventures, daily commutes, and hunting trips, it ensures you have the power needed for any journey.",
+        "【Extended Range up to 94 Miles with 48V 26A Dual Battery】 The dual-battery version offers a maximum range of up to 94 miles. In pure electric mode, travel up to 34.17 miles, or switch to assist mode for up to 47 miles. For the ultimate long-range experience, achieve up to 68 miles on a single charge, perfect for long rides on your cruiser or mountain ebike.",
+        "【All-Terrain Capability with 4.0*20 Inch Fat Tires & Full Suspension】 Conquer any terrain with 4.0*20 inch fat tires and full suspension, featuring front hydraulic and rear air shocks. These features make it perfect for extreme terrains and off-road adventures, ensuring a smooth and comfortable ride.",
+        "【Advanced Features Including Intelligent LCD Display & 7-Speed Gears】 Stay informed with the intelligent LCD display showing real-time data on power, speed, and mileage. The 7-speed gears provide flexibility for various riding conditions. Dual LED headlights and rear brake lights ensure visibility and safety",
+        "【Safe and Quiet Ride with Dual LED Headlights & 30db Low Noise Level】 Ride confidently with dual headlights and taillights for enhanced visibility. Front and rear disc mechanical brakes offer smooth stopping power. The low noise level of just 30db ensures a quiet and peaceful journey."
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0C4PFWX6X?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "ENGWE M20 Electric Bike for Adults - 1000W 28mph Moped Ebike 48V13A Single/48V26A Dual Battery 20*4.0\" Fat Tire All Terrain Off Road E-Bike Full Suspension Max 94Miles Long Range 7-Speed UL Certified",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/71Mf2wUWKIL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71ENdJbtVvL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71N2QU4SOXL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71-bx5F4uJL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/7123DjlXWJL._AC_SL1500_.jpg"
+      ],
+      "_availability": "Currently unavailable. We don't know when or if this item will be back in stock.",
+      "_allFeatures": [
+        "【Powerful Performance with 1000W Peak Motor & 55N.m Torque】 The ENGWE M20 electric bike, with its 48V/750W brushless motor peaking at 1000W and 55N.m torque, reaches speeds of 28 mph. Ideal for off-road adventures, daily commutes, and hunting trips, it ensures you have the power needed for any journey.",
+        "【Extended Range up to 94 Miles with 48V 26A Dual Battery】 The dual-battery version offers a maximum range of up to 94 miles. In pure electric mode, travel up to 34.17 miles, or switch to assist mode for up to 47 miles. For the ultimate long-range experience, achieve up to 68 miles on a single charge, perfect for long rides on your cruiser or mountain ebike.",
+        "【All-Terrain Capability with 4.0*20 Inch Fat Tires & Full Suspension】 Conquer any terrain with 4.0*20 inch fat tires and full suspension, featuring front hydraulic and rear air shocks. These features make it perfect for extreme terrains and off-road adventures, ensuring a smooth and comfortable ride.",
+        "【Advanced Features Including Intelligent LCD Display & 7-Speed Gears】 Stay informed with the intelligent LCD display showing real-time data on power, speed, and mileage. The 7-speed gears provide flexibility for various riding conditions. Dual LED headlights and rear brake lights ensure visibility and safety",
+        "【Safe and Quiet Ride with Dual LED Headlights & 30db Low Noise Level】 Ride confidently with dual headlights and taillights for enhanced visibility. Front and rear disc mechanical brakes offer smooth stopping power. The low noise level of just 30db ensures a quiet and peaceful journey.",
+        "【Certified and Reliable with UL Certification & Comprehensive After-Sale Service】 The UL certified ENGWE M20 comes 90% pre-assembled and includes a one-year warranty on motors, batteries, and controllers. Installation instructions and tools are provided, and our professional customer support team is available via email for any further assistance. This electric bike is ready for your adventures, whether it's a hunting trip or a daily commute, ensuring both safety and reliability.",
+        "【Certificate】 UL 2849 Certified/GCC/GCC-CPSC-16CFR1512"
+      ]
+    },
+    {
+      "asin": "B0DK9J5TN3",
+      "id": "freesky-2000w",
+      "category": "offroad-ebike",
+      "targetPosts": [
+        "best-offroad-ebikes-2026",
+        "best-budget-offroad-ebikes"
+      ],
+      "status": "PUPPETEER_SCRAPED",
+      "name": "2000W Electric Bike, 37MPH, 95 Miles Range",
+      "brand": "FREESKY",
+      "price": "$899.00",
+      "rating": 4.8,
+      "reviewCount": 99,
+      "image": "https://m.media-amazon.com/images/I/71Ep-0yjwhL._AC_SX522_.jpg",
+      "features": [
+        "Peak 2000W motor, 130 N.m torque, 40° climb",
+        "48V 25Ah battery, 50-95 mile range",
+        "Full suspension with lockable hydraulic fork",
+        "4-piston hydraulic disc brakes, 180mm rotors",
+        "26\" fat tires, full fenders, rear rack included"
+      ],
+      "_fullTitle": "FREESKY 2000W Electric Bike for Adults, 37MPH & 95Miles Range, Dirt All-Terrain Electric Bicycle, 48V 25Ah Removable Battery,26\" Fat Tire Full Suspension Mountain Ebike, UL2849 Certified by TÜV",
+      "_availability": "Only 2 left in stock - order soon.",
+      "amazonUrl": "https://www.amazon.com/dp/B0DK9J5TN3?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B0G93185VQ",
+      "id": "funhang-fattire",
+      "category": "offroad-ebike",
+      "targetPosts": [
+        "best-budget-offroad-ebikes"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:52:29.941Z",
+      "name": "Electric Bike for Adults, 1000W Peak Ebike",
+      "brand": "Funhang",
+      "price": "Check Amazon for price",
+      "rating": 0,
+      "reviewCount": 0,
+      "image": "https://m.media-amazon.com/images/I/71e69S-3S7L._AC_SX679_.jpg",
+      "features": [
+        "1000W Peak Strong Motor: Funhang electric bike features a powerful 500W motor with 66.6 N·m of torque and a top speed of 21.7 mph (Unlimited speed up to around 25mph). Equipped with 26\" x 4.0\" anti-skid fat tires, Funhang electric bike for adults is designed to easily handle all terrains like city, beach, snow, sand, mountain, and gravel roads, providing excellent grip and stability for a smooth ride.",
+        "48V 13Ah Removable Battery: This fat tire electric bike is equipped with a 48V 13AH large capacity li-ion battery, helping riders to get an impressive range of 30-35miles in pure electric mode and 55-60miles in PAS mode. Please note that the riding range will vary depending on your riding style, weight and road conditions. The battery is IPX5 waterproof and BMS protected, and can be charged on/ off the ebike, the charging time is about 6.5 hours.",
+        "Rear Cargo Rack & Lighting System: The electric bicycle comes with a sturdy and durable rear rack that can carry up to 60 pounds, effectively reducing the burden of carrying heavy loads. It is a great option for everyday shopping and delivery. The ebike is also equipped with a headlight and taillight/turn signal to enhance visibility during nighttime and improve your safety while riding at night.",
+        "High-Configuration Electric Bike: The front suspension fork and soft saddle are designed to effectively reduce impact from bumps. Funhang electric mountain bike features a professional 7-speed gearing system that allows you to adjust between 7 different gears for a comfortable riding experience. The LCD display shows your riding speed, battery level, pedal assist levels, mileage and more, making it easy for you to track your riding data. Dual 180mm disc brakes ensure riding safety.",
+        "Personalized Riding Modes: The adult electric bike offers riders 5 working modes and 5 pedal assist levels. Pure Electric Mode, Assisted Bicycle Mode, Normal Bike Mode, Cruise Mode and Booster Mode. It allows riders to choose the preferred cycling style, switching seamlessly between speed and comfort. This ebike for adults is ready for all your outdoor activities, park workouts, daily commutes, outdoor camping and off-road adventures."
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0G93185VQ?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "Electric Bike for Adults, 1000W Peak Ebike, 25MPH 60Miles Electric Mountain Bike, 26\" Fat Tire Electric Bicycle with 48V 13AH Battery, Front Suspension,7 Speed, Rear Rack, UL 2849 Certified",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/71e69S-3S7L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81huel9nvgL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81xvjX+99ML._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/819dZWbyojL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81H3xJ1THjL._AC_SL1500_.jpg"
+      ],
+      "_availability": "",
+      "_allFeatures": [
+        "1000W Peak Strong Motor: Funhang electric bike features a powerful 500W motor with 66.6 N·m of torque and a top speed of 21.7 mph (Unlimited speed up to around 25mph). Equipped with 26\" x 4.0\" anti-skid fat tires, Funhang electric bike for adults is designed to easily handle all terrains like city, beach, snow, sand, mountain, and gravel roads, providing excellent grip and stability for a smooth ride.",
+        "48V 13Ah Removable Battery: This fat tire electric bike is equipped with a 48V 13AH large capacity li-ion battery, helping riders to get an impressive range of 30-35miles in pure electric mode and 55-60miles in PAS mode. Please note that the riding range will vary depending on your riding style, weight and road conditions. The battery is IPX5 waterproof and BMS protected, and can be charged on/ off the ebike, the charging time is about 6.5 hours.",
+        "Rear Cargo Rack & Lighting System: The electric bicycle comes with a sturdy and durable rear rack that can carry up to 60 pounds, effectively reducing the burden of carrying heavy loads. It is a great option for everyday shopping and delivery. The ebike is also equipped with a headlight and taillight/turn signal to enhance visibility during nighttime and improve your safety while riding at night.",
+        "High-Configuration Electric Bike: The front suspension fork and soft saddle are designed to effectively reduce impact from bumps. Funhang electric mountain bike features a professional 7-speed gearing system that allows you to adjust between 7 different gears for a comfortable riding experience. The LCD display shows your riding speed, battery level, pedal assist levels, mileage and more, making it easy for you to track your riding data. Dual 180mm disc brakes ensure riding safety.",
+        "Personalized Riding Modes: The adult electric bike offers riders 5 working modes and 5 pedal assist levels. Pure Electric Mode, Assisted Bicycle Mode, Normal Bike Mode, Cruise Mode and Booster Mode. It allows riders to choose the preferred cycling style, switching seamlessly between speed and comfort. This ebike for adults is ready for all your outdoor activities, park workouts, daily commutes, outdoor camping and off-road adventures.",
+        "85% Pre-Assembled E bike: Funhang fat tire electric bicycle is suitable for riders between 5.3 and 6.2ft tall, with a maximum weight capacity of 330 lbs. It is 85% pre-assembled. After receiving the package, please follow the steps in the user manual and assembly video on our product page to complete the installation. We also offer a 365-day warranty and lifetime technical support. If you have any questions about Funhang ebike, please feel free to reach out to us.",
+        "Safety Certification: Our compliance with safety standards UL 2271 ( for Li-ion battery) and UL 2849 (for the whole ebike) has been recognized by SGS."
+      ]
+    },
+    {
+      "asin": "B0FG74R72R",
+      "id": "gokeep-1300w",
+      "category": "offroad-ebike",
+      "targetPosts": [
+        "best-budget-offroad-ebikes"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:52:37.838Z",
+      "name": "1300W Folding Electric Bike, 75 Miles PAS Range, 52V 13Ah Removable Battery",
+      "brand": "GOKEEP",
+      "price": "$529.99",
+      "rating": 4.3,
+      "reviewCount": 168,
+      "image": "https://m.media-amazon.com/images/I/61hqdazYd7L._AC_SX679_.jpg",
+      "features": [
+        "【Powerful Rides with 1300W Peak Motor】Effortlessly conquer steep 26° inclines with enhanced climbing power.The precision Shimano 7-speed gear system provides smooth shifting for various terrains. Perfect for daily commutes, beach cruising, sand, mountain trails, and weekend adventures with friends!",
+        "【75 Miles PAS Range, 35 Miles E-Range Commute with 52V/13Ah Battery】This bike features a UL2849 certified lithium-ion battery with IPX4 waterproof rating and smart BMS protection for safe charging at home or work. Fully charges in just 5-hour. The removable design makes charging easier than built-in batteries.",
+        "【Convenient & Comfortable Design】The GOKEEP folding e bike's step-thru frame make you getting on/off the e bicycle easier and more elegant. An adjustable seat and handlebar stem customize your perfect riding position. Front suspension and a cushioned seat absorb bumps for smooth rides on rough terrain.",
+        "【Freedom to Ride & Confidence to Explore】20\" x 3.0\" fat tires deliver superior grip compared to 2\" tires, handling all weather conditions - rain, snow, etc. Dual disc brakes deliver instant stopping power, while ultra-bright LED headlight and taillight ensure nighttime visibility. Foldable design is suitable for road trip adventures.",
+        "【1-Year Warranty, 24/7 Support】95% pre-assembled—ride in just 20 mins. Safety-backed by UL2849 certifications. Enjoy 1-year warranty, 24/7 support, and 30-day no-questions-asked return (items need original packaging, full accessories, unused/resale-ready). Keep original packaging temporarily for smooth returns. Join thousands of satisfied GOKEEP riders!"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0FG74R72R?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "1300W Folding Electric Bike, 75 Miles PAS Range, 52V 13Ah Removable Battery, 20\" Fat Tire & Front Suspension Electric Bicycles, 28MPH 7-Speed Commuter Ebike, Max 330LBS, UL2849 Certified",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/61hqdazYd7L._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/71g+ew29z4L._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/61+kfPH8qQL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/616ngZJgWiL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/61c-CYNsvAL._AC_SL1000_.jpg"
+      ],
+      "_availability": "In Stock",
+      "_allFeatures": [
+        "【Powerful Rides with 1300W Peak Motor】Effortlessly conquer steep 26° inclines with enhanced climbing power.The precision Shimano 7-speed gear system provides smooth shifting for various terrains. Perfect for daily commutes, beach cruising, sand, mountain trails, and weekend adventures with friends!",
+        "【75 Miles PAS Range, 35 Miles E-Range Commute with 52V/13Ah Battery】This bike features a UL2849 certified lithium-ion battery with IPX4 waterproof rating and smart BMS protection for safe charging at home or work. Fully charges in just 5-hour. The removable design makes charging easier than built-in batteries.",
+        "【Convenient & Comfortable Design】The GOKEEP folding e bike's step-thru frame make you getting on/off the e bicycle easier and more elegant. An adjustable seat and handlebar stem customize your perfect riding position. Front suspension and a cushioned seat absorb bumps for smooth rides on rough terrain.",
+        "【Freedom to Ride & Confidence to Explore】20\" x 3.0\" fat tires deliver superior grip compared to 2\" tires, handling all weather conditions - rain, snow, etc. Dual disc brakes deliver instant stopping power, while ultra-bright LED headlight and taillight ensure nighttime visibility. Foldable design is suitable for road trip adventures.",
+        "【1-Year Warranty, 24/7 Support】95% pre-assembled—ride in just 20 mins. Safety-backed by UL2849 certifications. Enjoy 1-year warranty, 24/7 support, and 30-day no-questions-asked return (items need original packaging, full accessories, unused/resale-ready). Keep original packaging temporarily for smooth returns. Join thousands of satisfied GOKEEP riders!"
+      ]
+    },
+    {
+      "asin": "B0D14PGK6D",
+      "id": "himiway-cobra-pro",
+      "category": "offroad-ebike",
+      "targetPosts": [
+        "best-offroad-ebikes-2026",
+        "best-highperformance-ebikes"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:52:04.839Z",
+      "name": "Cobra Pro 26\"x4.8\" Fat Tire Electric Bike 1000W",
+      "brand": "Himiway",
+      "price": "Check Amazon for price",
+      "rating": 0,
+      "reviewCount": 0,
+      "image": "https://m.media-amazon.com/images/I/01RmK+J4pJL._AC_.gif",
+      "features": [],
+      "amazonUrl": "https://www.amazon.com/dp/B0D14PGK6D?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "Himiway Cobra Pro 26\"x4.8\" Fat Tire Electric Bike 1000W, 80MI Long Range with Four-Bar Linkage Suspension, 400lb Payload, 25MPH, 10 Speed System",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/01RmK+J4pJL._AC_.gif"
+      ],
+      "_availability": "Currently unavailable. We don't know when or if this item will be back in stock.",
+      "_allFeatures": []
+    },
+    {
+      "asin": "B0BSLHJKK6",
+      "id": "himiway-zebra",
+      "category": "offroad-ebike",
+      "targetPosts": [
+        "best-offroad-ebikes-2026"
+      ],
+      "status": "FETCH_FAILED",
+      "fetchedAt": "2026-02-09T00:52:11.695Z",
+      "name": "Himiway (fetch failed — update manually)",
+      "brand": "Himiway",
+      "price": "Check Amazon for price",
+      "rating": 0,
+      "reviewCount": 0,
+      "image": null,
+      "features": [],
+      "amazonUrl": "https://www.amazon.com/dp/B0BSLHJKK6?tag=trailridergea-20"
+    },
+    {
+      "asin": "B0CQNRQS5W",
+      "id": "puckipuppy-boxer",
+      "category": "offroad-ebike",
+      "targetPosts": [
+        "best-offroad-ebikes-2026"
+      ],
+      "status": "PUPPETEER_SEARCH",
+      "name": "Boxer Electric Bike 960W, Full Suspension 26\" Fat Tire",
+      "brand": "PUCKIPUPPY",
+      "price": "",
+      "rating": 0,
+      "reviewCount": 143,
+      "image": "https://m.media-amazon.com/images/I/71OKeu67EfL._AC_UY218_.jpg",
+      "features": [
+        "960W motor",
+        "48V 20Ah battery",
+        "Full suspension",
+        "26\" fat tire",
+        "28MPH 80 miles"
+      ],
+      "_fullTitle": "PUCKIPUPPY Boxer Electric Bike for Adults 960W, 48V 20AH Battery Ebike, Full Suspension 26\" Fat Tire E Bike, 28MPH 80Miles Range",
+      "amazonUrl": "https://www.amazon.com/dp/B0CQNRQS5W?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B0FDW4TT5V",
+      "id": "dualmotor-6000w",
+      "category": "highperf-ebike",
+      "targetPosts": [
+        "best-highperformance-ebikes"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:52:58.028Z",
+      "name": "6000W Peak Dual Motor Ebike for Adults - 52V 34Ah Fast Electric Bike for Men Wom…",
+      "brand": "CTVVXXC",
+      "price": "$1,169",
+      "rating": 4.2,
+      "reviewCount": 28,
+      "image": "https://m.media-amazon.com/images/I/81uUeY83BML._AC_SX679_.jpg",
+      "features": [
+        "【Dual Motor Ebike Unleash Thrilling Speed & Power】Experience heart-pounding acceleration with dual 3000W peak brushless motors delivering 6000W combined output. Conquer 40° inclines effortlessly with 200N·m torque, reaching speeds in 45MPH in PAS Level 5 mode - perfect for adrenaline-fueled adventures or swift urban commutes. Our smart torque algorithm ensures seamless power delivery across all terrains",
+        "【E bikes for Adults Electric Provide Extended-Range 52V 34Ah Powerhouse】Journey 100 miles on a single charge with our upgrade 52V 34Ah Li-ion battery(Based on PAS mode). The IP67-rated removable battery pack features intelligent thermal management, maintaining optimal performance from -4°F to 140°F. Whether you're embarking on long rides or short trips, you'll enjoy the freedom to ride without worrying about running out of power,keeping your adventures uninterrupted",
+        "【All Terrain Fat Tires 24\"x4.0\" E Bike】 This electric mountain bike is specifically designed for adults and is suitable for men and women.Fat tire electric bike are equipped with 24x4.0 fat tires, making them perfect for any terrain and road conditions. Whether it's rocky beaches, snowy countryside, or steep hills, these bicycles can effortlessly take you through it all, providing you with an exceptional riding experience",
+        "【Hydraulic Disc Brakes】The front and rear hydraulic brake system with power-off function offers an easy brake within 2 seconds, which provide more effective braking in rainy weather, heavy off-road, long downhill, high-speed riding and adverse conditions, stop the e-bike quickly and smoothly. The lockable aluminum suspension front fork has a good shock absorption effect, which can offer you safer and comfortable riding experience",
+        "【Electric Bike Upgraded Configuration】Featuring sturdy 6061 aluminum frame, with the ability to support up to 264 lbs, the recommended height for the rider is 5'2\" -6'8\", perfect for most people to ride.600 lumen large headlight provides strong and full illumination both day and night.High-brightness brake light can remind the car and people behind,making the rider safer at night."
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0FDW4TT5V?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "6000W Peak Dual Motor Ebike for Adults - 52V 34Ah Fast Electric Bike for Men Women 45 MPH,Up to 100 Miles,24\" Fat Tire Lockable Suspension Electric Bicycle for Snow Off-Road Commuter Mountain E-Bike",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/81uUeY83BML._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81L9Hg2bIgL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81u-7U7iBNL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81XDqkOG7lL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81wN+mTxGJL._AC_SL1500_.jpg"
+      ],
+      "_availability": "Only 6 left in stock - order soon.",
+      "_allFeatures": [
+        "【Dual Motor Ebike Unleash Thrilling Speed & Power】Experience heart-pounding acceleration with dual 3000W peak brushless motors delivering 6000W combined output. Conquer 40° inclines effortlessly with 200N·m torque, reaching speeds in 45MPH in PAS Level 5 mode - perfect for adrenaline-fueled adventures or swift urban commutes. Our smart torque algorithm ensures seamless power delivery across all terrains",
+        "【E bikes for Adults Electric Provide Extended-Range 52V 34Ah Powerhouse】Journey 100 miles on a single charge with our upgrade 52V 34Ah Li-ion battery(Based on PAS mode). The IP67-rated removable battery pack features intelligent thermal management, maintaining optimal performance from -4°F to 140°F. Whether you're embarking on long rides or short trips, you'll enjoy the freedom to ride without worrying about running out of power,keeping your adventures uninterrupted",
+        "【All Terrain Fat Tires 24\"x4.0\" E Bike】 This electric mountain bike is specifically designed for adults and is suitable for men and women.Fat tire electric bike are equipped with 24x4.0 fat tires, making them perfect for any terrain and road conditions. Whether it's rocky beaches, snowy countryside, or steep hills, these bicycles can effortlessly take you through it all, providing you with an exceptional riding experience",
+        "【Hydraulic Disc Brakes】The front and rear hydraulic brake system with power-off function offers an easy brake within 2 seconds, which provide more effective braking in rainy weather, heavy off-road, long downhill, high-speed riding and adverse conditions, stop the e-bike quickly and smoothly. The lockable aluminum suspension front fork has a good shock absorption effect, which can offer you safer and comfortable riding experience",
+        "【Electric Bike Upgraded Configuration】Featuring sturdy 6061 aluminum frame, with the ability to support up to 264 lbs, the recommended height for the rider is 5'2\" -6'8\", perfect for most people to ride.600 lumen large headlight provides strong and full illumination both day and night.High-brightness brake light can remind the car and people behind,making the rider safer at night.",
+        "【6 Riding Modes】Including pedal assist mode, dual motor pure electric mode, single motor pure electric mode, normal bike mode, cruise control mode, and walking mode. Elevate your off-road adventures with our dual motor electric bike for adults. Unleash the thrill of conquering diverse terrains, from rugged mountain trails to challenging off-road paths. Multiple modes are suitable for different road conditions, making your riding journey more fun",
+        "【Quick Assembly & Reliable Support】 85% of the adult electric bicycle is pre-installed, you only need to manually install a few simple accessories.If you have any questions about this item please directly contact us. Please provide pictures or videos about the problem, so that we can better understand the situation of ebike, and then give you a satisfactory solution"
+      ]
+    },
+    {
+      "asin": "B0FDG79Z9C",
+      "id": "ebycco-6000w",
+      "category": "highperf-ebike",
+      "targetPosts": [
+        "best-highperformance-ebikes"
+      ],
+      "status": "PUPPETEER_SEARCH",
+      "name": "6000W Peak Dual Motor Ebike, 52V 32AH, 100 Miles",
+      "brand": "EBycco",
+      "price": "$1,299.00",
+      "rating": 0,
+      "reviewCount": 58,
+      "image": "https://m.media-amazon.com/images/I/71Mgf8y-WPL._AC_UY218_.jpg",
+      "features": [
+        "6000W dual motor",
+        "52V 32Ah battery",
+        "40-45 MPH",
+        "100 mile range",
+        "Full suspension hydraulic brakes"
+      ],
+      "_fullTitle": "EBycco 6000W Peak Dual Motor Ebike for Adults Electric Bike 52V 32AH, Max 40-45 MPH, 100 Miles Long Range, Full Suspension Hydraulic Disc Brake",
+      "amazonUrl": "https://www.amazon.com/dp/B0FDG79Z9C?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B0FG83PXL4",
+      "id": "ecoe-dualmotor",
+      "category": "highperf-ebike",
+      "targetPosts": [
+        "best-highperformance-ebikes"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:53:05.785Z",
+      "name": "6000W/5000W Dual Motor Electric Bike for Adults 52MPH with 60V32A",
+      "brand": "EcoE",
+      "price": "$1,299",
+      "rating": 4.6,
+      "reviewCount": 26,
+      "image": "https://m.media-amazon.com/images/I/819i4RoVpOL._AC_SX679_.jpg",
+      "features": [
+        "6000W Dual Motor Electric Bike for Adults 52MPH with 60V 32AH Battery, 26x4 Fat Tire All Terrain Ebikes, Full Suspension E Bike, SHM 7-Speed Gear Electric Bicycle",
+        "Accessories: This electric bike accessory set includes a rearview mirror, water bottle holder and bottle, a sturdy phone mount, and a waterproof phone pouch. The reinforced cargo rack allows you to easily carry extra items needed for your ride. Additionally, if you need more accessories, you can purchase a detachable storage rack, passenger safety seat, trailer, and more.",
+        "Important Notes: Please do not change the LCD settings randomly, as different bikes have different LCD parameter settings. Changing them may cause confusion. After receiving the bike, please keep the original packaging for at least 30 days",
+        "60V 32AH Battery: The bike is equipped with a high-capacity, removable 32AH battery, providing longer range per charge and over 1000 charge cycles. With pedal assist, the fat tire e-bike can travel 35-80 miles, depending on riding mode, load, and terrain. You can also purchase a spare battery for extended trips",
+        "Comfort and Versatility: This fat tire electric bike comes with dual front suspension and rear shocks to reduce impact and strain during rides. Its 26-inch wheels, 4-inch tires, and SHIM 7-speed system offer excellent grip across diverse terrains. Front and rear disc brakes ensure safe, responsive stopping, whether on mountain trails or city streets"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0FG83PXL4?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "EcoE 6000W/5000W Dual Motor Electric Bike for Adults 52MPH with 60V32A, 26x4 Fat Tire All Terrain Ebikes, Full Suspension E Bike, SHM 7-Speed Gear Electric Bicycle",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/819i4RoVpOL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81qMWIT3L9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/91dUiwDv+aL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/813HIKuiAXL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81cCPxGQiFL._AC_SL1500_.jpg"
+      ],
+      "_availability": "Only 15 left in stock - order soon.",
+      "_allFeatures": [
+        "6000W Dual Motor Electric Bike for Adults 52MPH with 60V 32AH Battery, 26x4 Fat Tire All Terrain Ebikes, Full Suspension E Bike, SHM 7-Speed Gear Electric Bicycle",
+        "Accessories: This electric bike accessory set includes a rearview mirror, water bottle holder and bottle, a sturdy phone mount, and a waterproof phone pouch. The reinforced cargo rack allows you to easily carry extra items needed for your ride. Additionally, if you need more accessories, you can purchase a detachable storage rack, passenger safety seat, trailer, and more.",
+        "Important Notes: Please do not change the LCD settings randomly, as different bikes have different LCD parameter settings. Changing them may cause confusion. After receiving the bike, please keep the original packaging for at least 30 days",
+        "60V 32AH Battery: The bike is equipped with a high-capacity, removable 32AH battery, providing longer range per charge and over 1000 charge cycles. With pedal assist, the fat tire e-bike can travel 35-80 miles, depending on riding mode, load, and terrain. You can also purchase a spare battery for extended trips",
+        "Comfort and Versatility: This fat tire electric bike comes with dual front suspension and rear shocks to reduce impact and strain during rides. Its 26-inch wheels, 4-inch tires, and SHIM 7-speed system offer excellent grip across diverse terrains. Front and rear disc brakes ensure safe, responsive stopping, whether on mountain trails or city streets",
+        "Durable Build: Made from high-quality 6061 aluminum alloy, the bike is built to last. It features a super-bright 600-lumen LED front light and tail light for visibility and safety during night rides. The LCD smart display shows real-time information such as speed, mileage, and battery life",
+        "Easy Assembly: The electric bike is mostly pre-assembled, saving you time on complex assembly. Video guides are available on the product page or through other official channels, or you can contact us directly for assistance."
+      ]
+    },
+    {
+      "asin": "B0F7FQ5VYX",
+      "id": "freesky-2500w-bafang",
+      "category": "highperf-ebike",
+      "targetPosts": [
+        "best-highperformance-ebikes",
+        "best-offroad-ebikes-2026"
+      ],
+      "status": "PUPPETEER_SCRAPED",
+      "name": "2500W BAFANG Motor Electric Bike, 120 Miles",
+      "brand": "FREESKY",
+      "price": "$1,399.00",
+      "rating": 4.8,
+      "reviewCount": 148,
+      "image": "https://m.media-amazon.com/images/I/71FMIolfM6L._AC_SX522_.jpg",
+      "features": [
+        "2500W BAFANG motor, 140Nm torque, 38+ MPH",
+        "48V 30Ah Samsung cells battery, 120 mile range",
+        "DNM air rear shock + double crown fork suspension",
+        "4-piston hydraulic disc brakes",
+        "UL 2849 certified by TÜV, rear rack + fenders"
+      ],
+      "_fullTitle": "FREESKY 2500W BAFANG Motor Electric Bike for Adults, 48V 30Ah Samsung Cells Battery Ebike 120 Miles, 38+MPH, 26\" Fat Tire Dirt All-Terrain Mountain E Bike, Full Suspension, UL 2849 Certified by TÜV",
+      "_availability": "Only 4 left in stock - order soon.",
+      "amazonUrl": "https://www.amazon.com/dp/B0F7FQ5VYX?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B0FNMRQ472",
+      "id": "freesky-4000w-dual",
+      "category": "highperf-ebike",
+      "targetPosts": [
+        "best-highperformance-ebikes"
+      ],
+      "status": "PUPPETEER_SEARCH",
+      "name": "4000W Dual Motor Electric Bike, 120 Miles, 40MPH AWD",
+      "brand": "FREESKY",
+      "price": "$1,649.00",
+      "rating": 0,
+      "reviewCount": 70,
+      "image": "https://m.media-amazon.com/images/I/71BVMUWl33L._AC_UY218_.jpg",
+      "features": [
+        "4000W dual motor AWD",
+        "48V 30Ah Samsung cells",
+        "120 mile range",
+        "40MPH top speed",
+        "26\" fat tire full suspension"
+      ],
+      "_fullTitle": "FREESKY 4000W Dual Motor Electric Bike for Adults, 48V 30AH Samsung Cells Battery 120Miles Range, 40MPH AWD Fast E-Bike, 26\" Fat Tire Full Suspension",
+      "amazonUrl": "https://www.amazon.com/dp/B0FNMRQ472?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B0GDM5QRDK",
+      "id": "wallke-h9-ultra",
+      "category": "highperf-ebike",
+      "targetPosts": [
+        "best-highperformance-ebikes",
+        "best-offroad-ebikes-2026"
+      ],
+      "status": "PUPPETEER_SCRAPED",
+      "name": "H9 ULTRA 4000W Electric Bike + Solar Power Station",
+      "brand": "Wallke",
+      "price": "$2,399.00",
+      "rating": 4.8,
+      "reviewCount": 107,
+      "image": "https://m.media-amazon.com/images/I/712+tsdX9SL._AC_SX522_.jpg",
+      "features": [
+        "2-in-1: E-bike + 2640Wh solar portable power station",
+        "4000W motor, 40MPH top speed, torque sensor",
+        "48V 55Ah battery, 90-180 mile range",
+        "20\" fat tire, full air suspension",
+        "UL-certified, 1000+ deep cycle battery life"
+      ],
+      "_fullTitle": "Wallke H9 ULTRA 2-in-1 4000W Electric Bike for Adults & Solar Portable Power Station, 40MPH Fast Ebike, 48V 55Ah 180 Mile Long Range eBike with Torque Sensor, 20 Fat Tire All Terrain Air Suspension,UL",
+      "_availability": "In Stock",
+      "amazonUrl": "https://www.amazon.com/dp/B0GDM5QRDK?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B09L63HGDP",
+      "id": "jasion-eb5",
+      "category": "budget-ebike",
+      "targetPosts": [
+        "best-budget-offroad-ebikes"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:52:22.794Z",
+      "name": "EB5 Electric Bike for Adults with Peak 1000W Brushless Motor",
+      "brand": "Jasion",
+      "price": "$199.99",
+      "rating": 4.1,
+      "reviewCount": 2149,
+      "image": "https://m.media-amazon.com/images/I/71wE1n97AJL._AC_SX679_.jpg",
+      "features": [
+        "350 W Motor & Upgraded Display: The EB5 electric bike equipped with a 500 W peak motor, boosted a top speed of 20 MPH. The display panel has adjustable backlight brightness from 1-5 levels. In addition, the upgraded LCD Display provides riding data support, such as ODO/MAX/AVG SPEED, PAS mode can be customized up to 3 modes",
+        "Removable Large Battery: The EB5 e-bike is equipped with a 360 Wh battery, which covers a range of up to 25-40 miles per charge for 5-6 hours so that it can meet travel or daily commute needs. Removable battery makes charging more convenient whether you are at home or in the office",
+        "4 Working Modes: PAS mode will assist you with a moderate amount of power as you pedal the bike, kick in 1-3 levels of pedal assist to suit your needs. In pure electric mode, you can twist the throttle in any increments of power you desire. Pedal mode allows the rider to pedal as an ordinary bike. Booster mode will help you push your EB5 at 4.5-7.5 km/h when uphill, which will save you a lot of efforts",
+        "Riding Comfortably and Handily: The 26\" puncture resistant tires are for greater durability. A high-strength front fork suspension, 7-speed gears, dual lights, LCD display, front and rear mechanical disc brakes can bring your riding more comforts, make your e-bike adapted to complex terrains and keep you safe",
+        "Minimalist Appearance & Lightweight Frame: A highly efficient, city style affordable electric bicycle offering minimalist and sleek appearance and only weighs 49.6 lbs. The triangular high-carbon steel frame provides more stability"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B09L63HGDP?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "Jasion EB5 Electric Bike for Adults with Peak 1000W Brushless Motor, 40Miles 20MPH Commuting Electric Mountain Bike with 360Wh Removable Battery, 7-Speed, 26\" Tires and Front Fork Suspension",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/71wE1n97AJL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71CuiDckQCL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71BTU3d2MGL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61qnAA5IG9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/617SMCdzjQL._AC_SL1500_.jpg"
+      ],
+      "_availability": "Only 8 left in stock - order soon.",
+      "_allFeatures": [
+        "350 W Motor & Upgraded Display: The EB5 electric bike equipped with a 500 W peak motor, boosted a top speed of 20 MPH. The display panel has adjustable backlight brightness from 1-5 levels. In addition, the upgraded LCD Display provides riding data support, such as ODO/MAX/AVG SPEED, PAS mode can be customized up to 3 modes",
+        "Removable Large Battery: The EB5 e-bike is equipped with a 360 Wh battery, which covers a range of up to 25-40 miles per charge for 5-6 hours so that it can meet travel or daily commute needs. Removable battery makes charging more convenient whether you are at home or in the office",
+        "4 Working Modes: PAS mode will assist you with a moderate amount of power as you pedal the bike, kick in 1-3 levels of pedal assist to suit your needs. In pure electric mode, you can twist the throttle in any increments of power you desire. Pedal mode allows the rider to pedal as an ordinary bike. Booster mode will help you push your EB5 at 4.5-7.5 km/h when uphill, which will save you a lot of efforts",
+        "Riding Comfortably and Handily: The 26\" puncture resistant tires are for greater durability. A high-strength front fork suspension, 7-speed gears, dual lights, LCD display, front and rear mechanical disc brakes can bring your riding more comforts, make your e-bike adapted to complex terrains and keep you safe",
+        "Minimalist Appearance & Lightweight Frame: A highly efficient, city style affordable electric bicycle offering minimalist and sleek appearance and only weighs 49.6 lbs. The triangular high-carbon steel frame provides more stability"
+      ]
+    },
+    {
+      "asin": "B0DKF2LWKR",
+      "id": "kebiko-1000w-folding",
+      "category": "budget-ebike",
+      "targetPosts": [
+        "best-budget-offroad-ebikes"
+      ],
+      "status": "PUPPETEER_SCRAPED",
+      "name": "1000W Folding Electric Bike, 80 Miles Range",
+      "brand": "Kebiko",
+      "price": "$899.00",
+      "rating": 4.6,
+      "reviewCount": 296,
+      "image": "https://m.media-amazon.com/images/I/71iNh4J40FL._AC_SX522_.jpg",
+      "features": [
+        "Peak 1000W motor, 30+ MPH top speed",
+        "48V 20Ah removable battery, 40-80 mile range",
+        "20\" fat tire, front suspension, dual disc brakes",
+        "Foldable step-through frame, 65 lbs",
+        "LCD display with USB charging, 3 riding modes"
+      ],
+      "_fullTitle": "1000W Folding Electric Bike,48V 20AH Removable Battery E Bike,30+MPH,80 Miles Max Range Electric Bike for Adults,20\" Fat Tire Foldable ebike,Adult Electric Bicycle for Commute Beach Snow",
+      "_availability": "In Stock",
+      "amazonUrl": "https://www.amazon.com/dp/B0DKF2LWKR?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B0D91N7QYY",
+      "id": "folding-1000w-fattire",
+      "category": "budget-ebike",
+      "targetPosts": [
+        "best-budget-offroad-ebikes"
+      ],
+      "status": "PUPPETEER_SEARCH",
+      "name": "Folding Electric Bike 1000W, 48V 20AH, 80 Miles",
+      "brand": "Unknown",
+      "price": "$599.99",
+      "rating": 0,
+      "reviewCount": 185,
+      "image": "https://m.media-amazon.com/images/I/71iNh4J40FL._AC_UY218_.jpg",
+      "features": [
+        "1000W peak motor",
+        "48V 20Ah battery",
+        "30+ MPH, 80 miles range",
+        "20\" fat tire foldable",
+        "All terrain"
+      ],
+      "_fullTitle": "Folding Electric Bike for Adults with Peak 1000W Motor, 48V 20AH Battery up to 30MPH 80 Miles, 20\" Fat Tire All Terrain",
+      "amazonUrl": "https://www.amazon.com/dp/B0D91N7QYY?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B0CG96T4MC",
+      "id": "gotrax-dolphin",
+      "category": "commuter-ebike",
+      "targetPosts": [
+        "must-have-ebike-accessories"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:52:50.258Z",
+      "name": "Dolphin 26\" Electric Bike, Max Range 30Miles(Pedal-assist1) & 20Mph Power by Pea…",
+      "brand": "Gotrax",
+      "price": "$494.99",
+      "rating": 4.5,
+      "reviewCount": 457,
+      "image": "https://m.media-amazon.com/images/I/71GdakGs2PL._AC_SX679_.jpg",
+      "features": [
+        "【Powerful Riding Performance】Gotrax Dolphin electric bike is powered by 350W brushless motor with max speed of 20MPH. Equipped with 26\" tires and a 280.8Wh removable battery, it can travel 15.5miles on pure electric mode with just 5.5 hours of charging. If in Pedal-Assist mode, it can travel up to more than 30miles. Plus, carry an extra battery for embraced cross-continental travel experiences.",
+        "【Tailored Safety & Comfort】Gotrax Dolphin E-bike features a height-adjustable seat and angle-adjustable handlebar, allowing for personalized comfort on extended journeys. Enhanced by dual disc brakes and front shock absorbers, it delivers powerful stopping ability, ensuring both safety and comfort. The console and bell contribute to a confident and secure ride across a variety of road conditions.",
+        "【Diverse Riding Experiences】Explore 3 riding modes for a fulfilling journey! Effortlessly cruise, exercise, or commute seamlessly – we have you covered. Select Pure Electric Mode, Pedal-Assist Mode, or ride like a normal bike, tailoring your mode to match the purpose of your journey. Plus, the Pedal-Assist Mode offers 5 speeds, expanding your riding options for a more personalized experience.",
+        "【Sport Ride Like No Other】Gotrax Dolphin shimano 7-speed system is built to any terrain, ensuring utmost durability. Opting for a lower gear minimizes strain on your feet. Enter the boost mode by pressing and holding the button for 2-3s. With a 6 Km/h (3.7 mph) boost, effortlessly lessen riding fatigue, maximizing distance and usage time for a seamless experience on both daily commutes and journeys.",
+        "【Easy Assembly & After Sales Guarantee】The electric bike is easy to assemble, most of the work already done and clear instructions and tools provided. Plus, Gotrax comes with a 365-day part assurance and customer support. If you experience any problems, we will strive to provide you with 100% satisfactory after-sales service."
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0CG96T4MC?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "Gotrax Dolphin 26\" Electric Bike, Max Range 30Miles(Pedal-assist1) & 20Mph Power by Peak 500W, 5 Pedal-Assist Levels & Front Suspension, 7-Speed&Boost Mode, City E-Bike for Adult, Step-Thru Bicycle",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/71GdakGs2PL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81+bTaslHeL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81VBCCJCIML._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81x7AYpNNPL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/716Otc8+zWL._AC_SL1500_.jpg"
+      ],
+      "_availability": "In Stock",
+      "_allFeatures": [
+        "【Powerful Riding Performance】Gotrax Dolphin electric bike is powered by 350W brushless motor with max speed of 20MPH. Equipped with 26\" tires and a 280.8Wh removable battery, it can travel 15.5miles on pure electric mode with just 5.5 hours of charging. If in Pedal-Assist mode, it can travel up to more than 30miles. Plus, carry an extra battery for embraced cross-continental travel experiences.",
+        "【Tailored Safety & Comfort】Gotrax Dolphin E-bike features a height-adjustable seat and angle-adjustable handlebar, allowing for personalized comfort on extended journeys. Enhanced by dual disc brakes and front shock absorbers, it delivers powerful stopping ability, ensuring both safety and comfort. The console and bell contribute to a confident and secure ride across a variety of road conditions.",
+        "【Diverse Riding Experiences】Explore 3 riding modes for a fulfilling journey! Effortlessly cruise, exercise, or commute seamlessly – we have you covered. Select Pure Electric Mode, Pedal-Assist Mode, or ride like a normal bike, tailoring your mode to match the purpose of your journey. Plus, the Pedal-Assist Mode offers 5 speeds, expanding your riding options for a more personalized experience.",
+        "【Sport Ride Like No Other】Gotrax Dolphin shimano 7-speed system is built to any terrain, ensuring utmost durability. Opting for a lower gear minimizes strain on your feet. Enter the boost mode by pressing and holding the button for 2-3s. With a 6 Km/h (3.7 mph) boost, effortlessly lessen riding fatigue, maximizing distance and usage time for a seamless experience on both daily commutes and journeys.",
+        "【Easy Assembly & After Sales Guarantee】The electric bike is easy to assemble, most of the work already done and clear instructions and tools provided. Plus, Gotrax comes with a 365-day part assurance and customer support. If you experience any problems, we will strive to provide you with 100% satisfactory after-sales service.",
+        "【UL Certificaed】With our product's UL2849 safety certification, your safety is our priority."
+      ]
+    },
+    {
+      "asin": "B07Z5GB3L7",
+      "id": "ateam-universal",
+      "category": "fishing-rod-holder",
+      "targetPosts": [
+        "ebike-fishing-rod-holders-guide"
+      ],
+      "status": "IN_PUBLISHED_POST",
+      "name": "Universal Strap Holder",
+      "brand": "AteamProducts",
+      "price": "$35",
+      "rating": 3.5,
+      "reviewCount": 117,
+      "image": "https://m.media-amazon.com/images/I/81J9eWaBfPL._AC_SX679_.jpg",
+      "features": [
+        "Tool-free installation",
+        "Fits most frame geometries",
+        "Easy to remove"
+      ],
+      "pros": [
+        "Works on multiple bikes",
+        "No tools required"
+      ],
+      "cons": [
+        "Straps may loosen on rough terrain",
+        "Not as durable as metal mounts"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B07Z5GB3L7?tag=trailridergea-20",
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B08F4CYHNH",
+      "id": "bike-fisherman-2rod",
+      "category": "fishing-rod-holder",
+      "targetPosts": [
+        "ebike-fishing-rod-holders-guide"
+      ],
+      "status": "IN_PUBLISHED_POST",
+      "name": "Bike Fisherman 2-Rod Holder",
+      "brand": "Bike Fisherman",
+      "price": "$34",
+      "rating": 4.5,
+      "reviewCount": 562,
+      "image": "https://m.media-amazon.com/images/I/81A+Tss70QL._AC_SX522_.jpg",
+      "features": [
+        "Holds 2 rods securely",
+        "UV-resistant ABS polymer",
+        "Easy handlebar mounting"
+      ],
+      "pros": [
+        "Amazon's Choice product",
+        "100+ bought per month"
+      ],
+      "cons": [
+        "Handlebar mount only",
+        "May not fit oversized bars"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B08F4CYHNH?tag=trailridergea-20",
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B0G6ZJFDSL",
+      "id": "geartrust-adjustable",
+      "category": "fishing-rod-holder",
+      "targetPosts": [
+        "ebike-fishing-rod-holders-guide"
+      ],
+      "status": "IN_PUBLISHED_POST",
+      "name": "Adjustable Fishing Rod Holder",
+      "brand": "GearTrust",
+      "price": "$22",
+      "rating": 4.3,
+      "reviewCount": 26,
+      "image": "https://m.media-amazon.com/images/I/616tk7Mu+IL._AC_SX522_.jpg",
+      "features": [
+        "Aluminum + plastic construction",
+        "Adjustable angle & height",
+        "Fits bikes, ATVs, boats, carts"
+      ],
+      "pros": [
+        "Works on e-bikes and ATVs",
+        "Budget-friendly at $22"
+      ],
+      "cons": [
+        "Newer product with fewer reviews",
+        "Single rod only"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0G6ZJFDSL?tag=trailridergea-20",
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B00K4VLBRQ",
+      "id": "burley-flatbed",
+      "category": "cargo-trailer",
+      "targetPosts": [
+        "ebike-cargo-trailers-racks-guide"
+      ],
+      "status": "IN_PUBLISHED_POST",
+      "name": "Flatbed Cargo Trailer",
+      "brand": "Burley",
+      "price": "$399",
+      "rating": 4.5,
+      "reviewCount": 433,
+      "image": "https://m.media-amazon.com/images/I/81v39PE7pNL._AC_SX679_.jpg",
+      "features": [
+        "100 lb capacity",
+        "Universal hitch system",
+        "Folds flat for storage"
+      ],
+      "pros": [
+        "Decades-proven durability",
+        "Open platform for irregular cargo"
+      ],
+      "cons": [
+        "Requires thru-axle adapter for some e-bikes",
+        "Cargo exposed to weather"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B00K4VLBRQ?tag=trailridergea-20",
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B0BW26F72R",
+      "id": "burley-nomad",
+      "category": "cargo-trailer",
+      "targetPosts": [
+        "ebike-cargo-trailers-racks-guide"
+      ],
+      "status": "IN_PUBLISHED_POST",
+      "name": "Nomad Cargo Trailer",
+      "brand": "Burley",
+      "price": "$370",
+      "rating": 4.5,
+      "reviewCount": 56,
+      "image": "https://m.media-amazon.com/images/I/6145dcQYZaL._AC_SX679_.jpg",
+      "features": [
+        "Weather-resistant cover",
+        "100 lb capacity",
+        "Roll-top closure"
+      ],
+      "pros": [
+        "Same capacity as Flatbed",
+        "Protection from rain and road spray"
+      ],
+      "cons": [
+        "$50 premium over Flatbed",
+        "Creates wind resistance on descents"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0BW26F72R?tag=trailridergea-20",
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B00S2QYNI4",
+      "id": "axiom-streamliner",
+      "category": "cargo-rack",
+      "targetPosts": [
+        "ebike-cargo-trailers-racks-guide"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:53:28.776Z",
+      "name": "Fatliner Bike Rack",
+      "brand": "Axiom",
+      "price": "$67.5",
+      "rating": 4.3,
+      "reviewCount": 219,
+      "image": "https://m.media-amazon.com/images/I/616819AW9GL._AC_SX679_.jpg",
+      "features": [
+        "Compatibility 26\" (up to 5.0\")",
+        "Weight 982 g / 2.16 lbs (including hardware)",
+        "Capacity 50 kg / 110 lbs",
+        "Double hand-welded tubular 6061 T6 aluminum",
+        "Sweep back feet mount to eyelets or QR skewer"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B00S2QYNI4?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "Axiom Fatliner Bike Rack",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/616819AW9GL._AC_SL1195_.jpg"
+      ],
+      "_availability": "Only 8 left in stock - order soon.",
+      "_allFeatures": [
+        "Compatibility 26\" (up to 5.0\")",
+        "Weight 982 g / 2.16 lbs (including hardware)",
+        "Capacity 50 kg / 110 lbs",
+        "Double hand-welded tubular 6061 T6 aluminum",
+        "Sweep back feet mount to eyelets or QR skewer"
+      ]
+    },
+    {
+      "asin": "B0043MLLI6",
+      "id": "planet-koko-rack",
+      "category": "cargo-rack",
+      "targetPosts": [
+        "ebike-cargo-trailers-racks-guide"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:53:14.095Z",
+      "name": "K.O.K.O. bike rack (black)",
+      "brand": "Planet Bike",
+      "price": "$64.99",
+      "rating": 4.2,
+      "reviewCount": 46,
+      "image": "https://m.media-amazon.com/images/I/61zVL4BLz0L._AC_SX679_.jpg",
+      "features": [
+        "Oversized, 6061 tubular aluminum construction for strength and stability",
+        "Pre-installed stainless steel mounting hardware for quick, hassle-free installation",
+        "Includes alternate mounting stays to fit most frame sizes",
+        "Rear reflector/tail light mounting plate allows the use of the #3108 and #3087-2 rack brackets to mount most Planet Bike tail lights",
+        "Fits 26”, 650b, 700c, and 29” bikes"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0043MLLI6?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "Planet Bike K.O.K.O. bike rack (black)",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/61zVL4BLz0L._AC_SL1100_.jpg",
+        "https://m.media-amazon.com/images/I/61Tv6dpgMpL._AC_SL1100_.jpg",
+        "https://m.media-amazon.com/images/I/51SckEl958L._AC_SL1100_.jpg",
+        "https://m.media-amazon.com/images/I/51us3Xj32KL._AC_SL1100_.jpg"
+      ],
+      "_availability": "Only 17 left in stock (more on the way).",
+      "_allFeatures": [
+        "Oversized, 6061 tubular aluminum construction for strength and stability",
+        "Pre-installed stainless steel mounting hardware for quick, hassle-free installation",
+        "Includes alternate mounting stays to fit most frame sizes",
+        "Rear reflector/tail light mounting plate allows the use of the #3108 and #3087-2 rack brackets to mount most Planet Bike tail lights",
+        "Fits 26”, 650b, 700c, and 29” bikes",
+        "Oversized, 6061 tubular aluminum construction for strength and stability",
+        "Load capacity 55lbs. Flat cargo deck for oversized loads"
+      ]
+    },
+    {
+      "asin": "B000SPMU9Q",
+      "id": "planet-eco-rack",
+      "category": "cargo-rack",
+      "targetPosts": [
+        "ebike-cargo-trailers-racks-guide"
+      ],
+      "status": "IN_PUBLISHED_POST",
+      "name": "Eco Rear Rack",
+      "brand": "Planet Bike",
+      "price": "$50",
+      "rating": 4.4,
+      "reviewCount": 618,
+      "image": "https://m.media-amazon.com/images/I/51GYvU7OYjL._AC_SX679_.jpg",
+      "features": [
+        "55 lb capacity",
+        "Standard frame fit",
+        "Classic aluminum design"
+      ],
+      "pros": [
+        "Budget-friendly price",
+        "Works on most standard frames"
+      ],
+      "cons": [
+        "Threaded eyelets can fatigue",
+        "Basic construction"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B000SPMU9Q?tag=trailridergea-20",
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B0B6132N63",
+      "id": "thule-tour-rack",
+      "category": "cargo-rack",
+      "targetPosts": [
+        "ebike-cargo-trailers-racks-guide"
+      ],
+      "status": "IN_PUBLISHED_POST",
+      "name": "Pack 'n Pedal Tour Rack",
+      "brand": "Thule",
+      "price": "$195",
+      "rating": 4.3,
+      "reviewCount": 3251,
+      "image": "https://m.media-amazon.com/images/I/71oiCcQBsRL._AC_SX679_.jpg",
+      "features": [
+        "Seatpost/frame mount",
+        "55 lb capacity",
+        "Solid aluminum top plate"
+      ],
+      "pros": [
+        "No eyelets required",
+        "Adjustable for odd frame shapes"
+      ],
+      "cons": [
+        "$120 more than Topeak",
+        "Lower capacity than Explorer"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0B6132N63?tag=trailridergea-20",
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B009XMO9BM",
+      "id": "topeak-explorer",
+      "category": "cargo-rack",
+      "targetPosts": [
+        "ebike-cargo-trailers-racks-guide"
+      ],
+      "status": "IN_PUBLISHED_POST",
+      "name": "Explorer Rear Rack",
+      "brand": "Topeak",
+      "price": "$75",
+      "rating": 5,
+      "reviewCount": 2,
+      "image": "https://m.media-amazon.com/images/I/51qJrYH-DeL._AC_SX679_.jpg",
+      "features": [
+        "57 lb capacity",
+        "Disc brake compatible",
+        "MTX QuickTrack interface"
+      ],
+      "pros": [
+        "Wirecutter recommended",
+        "Decade-plus proven design"
+      ],
+      "cons": [
+        "Requires frame eyelets",
+        "Check bolts periodically on e-bikes"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B009XMO9BM?tag=trailridergea-20",
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B00NTAB502",
+      "id": "blackburn-local",
+      "category": "pannier-bag",
+      "targetPosts": [
+        "ebike-waterproof-panniers-guide"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:53:43.103Z",
+      "name": "Local Rear Pannier - 705876",
+      "brand": "Blackburn",
+      "price": "Check Amazon for price",
+      "rating": 0,
+      "reviewCount": 0,
+      "image": "https://m.media-amazon.com/images/I/61R7jt18G3L._AC_SX679_.jpg",
+      "features": [
+        "Compatible with all standard racks",
+        "Roomy exterior pocket",
+        "Flasher loops on either side",
+        "Removable shoulder strap; Reflective print",
+        "210D polyester with water resistant treatment and backing; 13 liter capacity"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B00NTAB502?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "Blackburn Local Rear Pannier - 705876",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/61R7jt18G3L._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61lERUbvDjL._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61QKaJqPuZL._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61kQ+fz7j8L._AC_SL1200_.jpg"
+      ],
+      "_availability": "Currently unavailable. We don't know when or if this item will be back in stock.",
+      "_allFeatures": [
+        "Compatible with all standard racks",
+        "Roomy exterior pocket",
+        "Flasher loops on either side",
+        "Removable shoulder strap; Reflective print",
+        "210D polyester with water resistant treatment and backing; 13 liter capacity"
+      ]
+    },
+    {
+      "asin": "B09RQ479DL",
+      "id": "ortlieb-bikepacker",
+      "category": "pannier-bag",
+      "targetPosts": [
+        "ebike-waterproof-panniers-guide"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:53:36.064Z",
+      "name": "Bike-Packer Plus Panniers - 42L Pair Salsa/Dark Chili",
+      "brand": "Ortlieb",
+      "price": "Check Amazon for price",
+      "rating": 0,
+      "reviewCount": 0,
+      "image": "https://m.media-amazon.com/images/I/61JYaUE7lgL._AC_SX679_.jpg",
+      "features": [
+        "Safety Warning: Incorrect attachment may cause injury",
+        "Loose risers pose injury risk",
+        "Loose product components may cause injury",
+        "Overloading may lead to material failure and injury",
+        "Evolving the Quick-Lock system for enhanced performance"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B09RQ479DL?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "Ortlieb Bike-Packer Plus Panniers - 42L Pair Salsa/Dark Chili",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/61JYaUE7lgL._AC_SL1194_.jpg"
+      ],
+      "_availability": "Currently unavailable. We don't know when or if this item will be back in stock.",
+      "_allFeatures": [
+        "Safety Warning: Incorrect attachment may cause injury",
+        "Loose risers pose injury risk",
+        "Loose product components may cause injury",
+        "Overloading may lead to material failure and injury",
+        "Evolving the Quick-Lock system for enhanced performance",
+        "Quick-Lock2.2: Simplified, Comfortable, Robust",
+        "QL3.1: Designed for Office and City Bags"
+      ]
+    },
+    {
+      "asin": "B00T6IR7B2",
+      "id": "ortlieb-backroller",
+      "category": "pannier-bag",
+      "targetPosts": [
+        "ebike-waterproof-panniers-guide"
+      ],
+      "status": "IN_PUBLISHED_POST",
+      "name": "Back-Roller Classic Panniers (Pair)",
+      "brand": "Ortlieb",
+      "price": "$185",
+      "rating": 4.7,
+      "reviewCount": 1200,
+      "image": "https://m.media-amazon.com/images/I/71QQ8nFuvPL._AC_SX679_.jpg",
+      "features": [
+        "20L per pannier (40L pair)",
+        "IP64 waterproof",
+        "Quick-Lock mounting"
+      ],
+      "pros": [
+        "Industry gold standard for waterproofing",
+        "Bombproof construction"
+      ],
+      "cons": [
+        "Premium price",
+        "No internal organization pockets"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B00T6IR7B2?tag=trailridergea-20",
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B087442V54",
+      "id": "quietkat-waterproof",
+      "category": "pannier-bag",
+      "targetPosts": [
+        "ebike-waterproof-panniers-guide"
+      ],
+      "status": "IN_PUBLISHED_POST",
+      "name": "Waterproof Pannier Bag",
+      "brand": "QuietKat",
+      "price": "$129",
+      "rating": 4,
+      "reviewCount": 45,
+      "image": "https://m.media-amazon.com/images/I/71kMqWv3rTL._AC_SX679_.jpg",
+      "features": [
+        "Marine-grade waterproof",
+        "Designed for fat tire e-bikes",
+        "Quick-release mounting"
+      ],
+      "pros": [
+        "Made for hunting e-bikes specifically",
+        "Camo options available"
+      ],
+      "cons": [
+        "Single bag (not a pair)",
+        "Limited color options"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B087442V54?tag=trailridergea-20",
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B016Q7WFF8",
+      "id": "thule-shield",
+      "category": "pannier-bag",
+      "targetPosts": [
+        "ebike-waterproof-panniers-guide"
+      ],
+      "status": "IN_PUBLISHED_POST",
+      "name": "Shield Panniers (Pair)",
+      "brand": "Thule",
+      "price": "$160",
+      "rating": 4.5,
+      "reviewCount": 350,
+      "image": "https://m.media-amazon.com/images/I/71Y8W4NLGQL._AC_SX679_.jpg",
+      "features": [
+        "25L per pannier (50L pair)",
+        "Welded seam waterproofing",
+        "Reflective elements"
+      ],
+      "pros": [
+        "Great value for a pair",
+        "Thule brand reliability"
+      ],
+      "cons": [
+        "Slightly less waterproof than Ortlieb",
+        "Roll-top can be fiddly"
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B016Q7WFF8?tag=trailridergea-20",
+      "fetchedAt": "2026-02-09T01:00:30.923Z"
+    },
+    {
+      "asin": "B09M7WM6Z9",
+      "id": "brooks-handlebar-roll",
+      "category": "handlebar-bag",
+      "targetPosts": [
+        "best-ebike-handlebar-bags"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:54:02.037Z",
+      "name": "Scape Handlebar Roll, Cycling and Gravel Bag",
+      "brand": "Brooks England",
+      "price": "$150",
+      "rating": 4.2,
+      "reviewCount": 5,
+      "image": "https://m.media-amazon.com/images/I/516hQH5RZ5L._AC_SX679_.jpg",
+      "features": [
+        "Waterproof IPX4: Welded material construction, waterproof materials, all-round weatherproof details.",
+        "Practical functionality: adjustable attachments, easy-pull zipper.",
+        "Lasting performance: made-to-last materials, hard-wearing details, specially selected components."
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B09M7WM6Z9?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "Brooks England Scape Handlebar Roll, Cycling and Gravel Bag",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/516hQH5RZ5L._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/41AK+aIQonL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/51qUTC6YYEL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/51ufP7gxMAL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/510GGfY7EOL._AC_SL1000_.jpg"
+      ],
+      "_availability": "Only 5 left in stock - order soon.",
+      "_allFeatures": [
+        "Waterproof IPX4: Welded material construction, waterproof materials, all-round weatherproof details.",
+        "Practical functionality: adjustable attachments, easy-pull zipper.",
+        "Lasting performance: made-to-last materials, hard-wearing details, specially selected components."
+      ]
+    },
+    {
+      "asin": "B00J43XG3W",
+      "id": "revelate-feedbag",
+      "category": "handlebar-bag",
+      "targetPosts": [
+        "best-ebike-handlebar-bags"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:54:12.781Z",
+      "name": "Revelate Designs Mountain Feedbag",
+      "brand": "FURgenie",
+      "price": "Check Amazon for price",
+      "rating": 4.8,
+      "reviewCount": 9,
+      "image": "https://m.media-amazon.com/images/I/91zE0TyZC-L._AC_SY879_.jpg",
+      "features": [],
+      "amazonUrl": "https://www.amazon.com/dp/B00J43XG3W?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "Revelate Designs Mountain Feedbag",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/91zE0TyZC-L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/91K0ibehjYL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/91oEMlyRL6L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81sMF1XiKAL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81sBdRc5pkL._AC_SL1500_.jpg"
+      ],
+      "_availability": "Currently unavailable. We don't know when or if this item will be back in stock.",
+      "_allFeatures": []
+    },
+    {
+      "asin": "B0868WD176",
+      "id": "rambo-hauler",
+      "category": "bike-rack",
+      "targetPosts": [
+        "best-ebike-trailer-hitches"
+      ],
+      "status": "VERIFIED",
+      "fetchedAt": "2026-02-09T00:54:21.695Z",
+      "name": "Bikes Fat Tire Electric Bike Hauler - Bike Rack Hitch Style 2-Bike Carrier - 145…",
+      "brand": "Rambo",
+      "price": "Check Amazon for price",
+      "rating": 3.6,
+      "reviewCount": 167,
+      "image": "https://m.media-amazon.com/images/I/71BNzeeYi3L._AC_SX679_.jpg",
+      "features": [
+        "Heavy-Duty Trailer Hitch Bike Rack: Transport your Rambo bikes with ease with our fat tire trailer hitch cargo carrier. With a 145lbs maximum capacity, you can haul up to 2 ebikes in one load. Bring along a fellow outdoor junky, load up, haul, and strap them up, and you're off to your next adventure.",
+        "Fits All 16\"-29\" Tire Sizes: Haul a wide range of bicycles, from ebikes, and mountain bikes, to road bikes. With its universal padded top clamps and adjustable tire base, this bike mount is designed to fit tire sizes between 16” to 29”. Plus, anti-theft adjustable locks for a secure fit and a firm car and platform connection for a wobble-free trip.",
+        "Compatible With Most Trucks and SUVs: Our bike racks are designed to fit most cars, trucks, and SUVs. On top of its adjustable features, this swing-away hitch bike rack has a pivoting bracket for uninterrupted cargo access. All you need to do is fold the hauler down to access your SUV’s rear door or fold it up when not in use.",
+        "Easy Storage and Set-Up: Easy fold and space-saving, our trunk bike rack folds nice and easy for hassle-free storage. Installing this hitch hauler only takes a few nuts, bolts, easy-to-follow steps, and you’re all set.",
+        "Built Rambo Tough: Rambo is the pioneer for electric bikes in the hunting industry. However, our journey doesn't end there. Our goal is to provide you with ebike accessories for every adventure for that incredible riding experience, whether you're hunting, commuting, camping, or whatever else you love doing."
+      ],
+      "amazonUrl": "https://www.amazon.com/dp/B0868WD176?tag=trailridergea-20",
+      "pros": [],
+      "cons": [],
+      "_fullTitle": "Rambo Bikes Fat Tire Electric Bike Hauler - Bike Rack Hitch Style 2-Bike Carrier - 145lbs Max Capacity, Fits 16\"-29\" Tire Sizes, Easy Tailgate or Hitch Access - Folds Compact for Easy Storage",
+      "_allImages": [
+        "https://m.media-amazon.com/images/I/71BNzeeYi3L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81T6n3o1SEL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/91YpgIK7pPL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81c8yV-yo8L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81k2FiiGxBL._AC_SL1500_.jpg"
+      ],
+      "_availability": "Currently unavailable. We don't know when or if this item will be back in stock.",
+      "_allFeatures": [
+        "Heavy-Duty Trailer Hitch Bike Rack: Transport your Rambo bikes with ease with our fat tire trailer hitch cargo carrier. With a 145lbs maximum capacity, you can haul up to 2 ebikes in one load. Bring along a fellow outdoor junky, load up, haul, and strap them up, and you're off to your next adventure.",
+        "Fits All 16\"-29\" Tire Sizes: Haul a wide range of bicycles, from ebikes, and mountain bikes, to road bikes. With its universal padded top clamps and adjustable tire base, this bike mount is designed to fit tire sizes between 16” to 29”. Plus, anti-theft adjustable locks for a secure fit and a firm car and platform connection for a wobble-free trip.",
+        "Compatible With Most Trucks and SUVs: Our bike racks are designed to fit most cars, trucks, and SUVs. On top of its adjustable features, this swing-away hitch bike rack has a pivoting bracket for uninterrupted cargo access. All you need to do is fold the hauler down to access your SUV’s rear door or fold it up when not in use.",
+        "Easy Storage and Set-Up: Easy fold and space-saving, our trunk bike rack folds nice and easy for hassle-free storage. Installing this hitch hauler only takes a few nuts, bolts, easy-to-follow steps, and you’re all set.",
+        "Built Rambo Tough: Rambo is the pioneer for electric bikes in the hunting industry. However, our journey doesn't end there. Our goal is to provide you with ebike accessories for every adventure for that incredible riding experience, whether you're hunting, commuting, camping, or whatever else you love doing."
+      ]
+    }
+  ]
+}

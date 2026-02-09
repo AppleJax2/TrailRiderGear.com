@@ -1,15 +1,13 @@
 {
   "authors": [
     {
-      "id": "kevin",
-      "name": "Kevin Gabeci",
-      "email": "kgabeci@gmail.com",
-      "bio": "Developer and content creator. Creator of this Astro SEO Blog Template. Visit Apatero at apatero.com for more projects.",
-      "avatar": "",
+      "id": "trailrider-team",
+      "name": "TrailRider Gear Team",
+      "email": "editor@trailridergear.com",
+      "bio": "Outdoor enthusiasts and e-bike gear researchers dedicated to helping hunters and anglers find the best equipment for their electric bike adventures. We aggregate real user reviews, manufacturer specs, and field reports to give you honest, research-backed recommendations.",
+      "avatar": "/images/authors/trailrider-team.jpg",
       "social": {
-        "github": "TheDovakiin",
-        "linkedin": "https://www.linkedin.com/in/kevin-gabeci/",
-        "website": "https://www.kevingabeci.com/"
+        "website": "https://trailridergear.com"
       }
     }
   ]

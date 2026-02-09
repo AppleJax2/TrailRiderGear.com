@@ -9,28 +9,31 @@ const { siteName = SITE_CONFIG.title } = Astro.props;
 const currentYear = new Date().getFullYear();
 ---
 
-<footer class="border-t mt-auto">
+<footer class="border-t-2 border-accent-sage/20 mt-auto">
   <div class="container py-6">
     <div class="flex flex-col lg:flex-row justify-between items-center gap-4">
       <!-- Left: Copyright & Info -->
-      <div class="text-center lg:text-left">
-        <p class="text-sm text-text-muted">
-          {currentYear} TrailRider Gear. Expert e-bike accessory reviews for outdoor adventures.
+      <div class="text-center lg:text-left flex items-center gap-4">
+        <a href="/" class="flex-shrink-0">
+          <img src="/logo.png" alt="TrailRider Gear" class="w-12 h-12 object-contain" />
+        </a>
+        <p class="text-sm text-accent-clay">
+          {currentYear} TrailRider Gear. Research-backed e-bike accessory buying guides for outdoor adventures.
         </p>
-        <p class="text-xs text-text-muted mt-1">
+        <p class="text-xs text-accent-clay/70 mt-1">
           Affiliate Disclosure: We may earn commissions from qualifying purchases.
         </p>
       </div>
 
       <!-- Center: Links -->
-      <div class="flex flex-wrap justify-center gap-3 text-xs text-text-muted order-last lg:order-none">
-        <a href="/blog" class="hover:text-text transition-colors">Reviews</a>
-        <span class="text-text-muted/50">•</span>
-        <a href="/blog/category" class="hover:text-text transition-colors">Categories</a>
-        <span class="text-text-muted/50">•</span>
-        <a href="/about" class="hover:text-text transition-colors">About</a>
-        <span class="text-text-muted/50">•</span>
-        <a href="/affiliate-disclosure" class="hover:text-text transition-colors">Affiliate Disclosure</a>
+      <div class="flex flex-wrap justify-center gap-3 text-xs text-accent-clay order-last lg:order-none">
+        <a href="/blog" class="hover:text-accent-terracotta transition-colors">Guides</a>
+        <span class="text-accent-sage/50">•</span>
+        <a href="/blog/category" class="hover:text-accent-terracotta transition-colors">Categories</a>
+        <span class="text-accent-sage/50">•</span>
+        <a href="/about" class="hover:text-accent-terracotta transition-colors">About</a>
+        <span class="text-accent-sage/50">•</span>
+        <a href="/affiliate-disclosure" class="hover:text-accent-terracotta transition-colors">Affiliate Disclosure</a>
       </div>
 
       <!-- Right: Social Icons -->
@@ -38,7 +41,7 @@ const currentYear = new Date().getFullYear();
         {SITE_CONFIG.features.rss && (
           <a
             href="/rss.xml"
-            class="text-sm text-text-muted hover:text-text transition-colors"
+            class="text-sm text-accent-clay hover:text-accent-terracotta transition-colors"
             aria-label="RSS Feed"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -54,7 +57,7 @@ const currentYear = new Date().getFullYear();
             href={`https://github.com/${SITE_CONFIG.social.github}`}
             target="_blank"
             rel="noopener noreferrer"
-            class="text-sm text-text-muted hover:text-text transition-colors"
+            class="text-sm text-accent-clay hover:text-accent-terracotta transition-colors"
             aria-label="GitHub"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -68,7 +71,7 @@ const currentYear = new Date().getFullYear();
             href={`https://twitter.com/${SITE_CONFIG.social.twitter}`}
             target="_blank"
             rel="noopener noreferrer"
-            class="text-sm text-text-muted hover:text-text transition-colors"
+            class="text-sm text-accent-clay hover:text-accent-terracotta transition-colors"
             aria-label="Twitter"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -82,7 +85,7 @@ const currentYear = new Date().getFullYear();
             href={SITE_CONFIG.social.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            class="text-sm text-text-muted hover:text-text transition-colors"
+            class="text-sm text-accent-clay hover:text-accent-terracotta transition-colors"
             aria-label="LinkedIn"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -98,7 +101,7 @@ const currentYear = new Date().getFullYear();
             href={SITE_CONFIG.social.youtube.startsWith('http') ? SITE_CONFIG.social.youtube : 'https://www.youtube.com/@ApateroGroup'}
             target="_blank"
             rel="noopener noreferrer"
-            class="text-sm text-text-muted hover:text-text transition-colors"
+            class="text-sm text-accent-clay hover:text-accent-terracotta transition-colors"
             aria-label="YouTube"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -112,7 +115,7 @@ const currentYear = new Date().getFullYear();
             href={SITE_CONFIG.social.discord}
             target="_blank"
             rel="noopener noreferrer"
-            class="text-sm text-text-muted hover:text-text transition-colors"
+            class="text-sm text-accent-clay hover:text-accent-terracotta transition-colors"
             aria-label="Discord"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -126,7 +129,7 @@ const currentYear = new Date().getFullYear();
             href={`https://instagram.com/${SITE_CONFIG.social.instagram.replace('@', '')}`}
             target="_blank"
             rel="noopener noreferrer"
-            class="text-sm text-text-muted hover:text-text transition-colors"
+            class="text-sm text-accent-clay hover:text-accent-terracotta transition-colors"
             aria-label="Instagram"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">

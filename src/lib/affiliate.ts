@@ -4,7 +4,7 @@
  */
 
 // Default Amazon Associates tag from environment or fallback
-const DEFAULT_AMAZON_TAG = process.env.AMAZON_ASSOCIATES_TAG || 'trailridgear-20';
+const DEFAULT_AMAZON_TAG = process.env.AMAZON_ASSOCIATES_TAG || 'trailridergea-20';
 
 /**
  * Build an Amazon Associates link with tracking

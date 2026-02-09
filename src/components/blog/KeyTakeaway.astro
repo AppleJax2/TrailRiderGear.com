@@ -1,0 +1,109 @@
+---
+export interface Pick {
+  label: string;
+  product: string;
+  reason: string;
+  asin?: string;
+}
+
+export interface Props {
+  picks: Pick[];
+}
+
+const { picks } = Astro.props;
+const affiliateTag = 'trailridergea-20';
+---
+
+<div class="kt not-prose">
+  {picks.map((pick, i) => (
+    <div class={`kt-row ${i === 0 ? 'kt-top' : ''}`}>
+      <span class="kt-label">{pick.label}</span>
+      {pick.asin ? (
+        <a href={`https://www.amazon.com/dp/${pick.asin}?tag=${affiliateTag}`} target="_blank" rel="nofollow sponsored" class="kt-name">{pick.product}</a>
+      ) : (
+        <span class="kt-name">{pick.product}</span>
+      )}
+      <span class="kt-why">{pick.reason}</span>
+    </div>
+  ))}
+</div>
+
+<style>
+  .kt {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 1.5rem 0;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .kt-row {
+    display: grid;
+    grid-template-columns: 7.5rem 1fr;
+    grid-template-rows: auto auto;
+    gap: 0.125rem 1rem;
+    padding: 0.875rem 1.25rem;
+    background: var(--color-surface);
+  }
+
+  .kt-top {
+    background: var(--color-primary);
+  }
+
+  .kt-top .kt-label {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .kt-top .kt-name {
+    color: #fff;
+  }
+
+  .kt-top .kt-why {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .kt-label {
+    grid-row: 1 / 3;
+    align-self: center;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    line-height: 1.3;
+  }
+
+  .kt-name {
+    font-weight: 700;
+    font-size: 0.9375rem;
+    color: var(--color-text);
+    text-decoration: none;
+    line-height: 1.3;
+  }
+
+  a.kt-name:hover {
+    color: var(--color-primary);
+  }
+
+  .kt-top a.kt-name:hover {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .kt-why {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    line-height: 1.45;
+  }
+
+  @media (max-width: 480px) {
+    .kt-row {
+      grid-template-columns: 1fr;
+      gap: 0.25rem;
+    }
+
+    .kt-label {
+      grid-row: auto;
+    }
+  }
+</style>

@@ -2,96 +2,141 @@
 // Hero Section Component - Bold, Centered Design
 ---
 
-<section class="min-h-screen bg-background relative overflow-hidden flex items-center">
-  <div class="container relative z-10 w-full py-16">
-    <!-- Centered Content -->
-    <div class="max-w-5xl mx-auto text-center">
-      <!-- Main Headline -->
-      <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-display font-bold mb-8 leading-none tracking-tight">
-        TRAILRIDER<br>
-        <span class="text-text-muted">GEAR.</span><br>
-        EXPLORE.
-      </h1>
+<section class="min-h-[calc(100vh-4rem)] bg-background relative flex items-center overflow-x-clip">
+  <div class="container relative z-10 w-full py-12 lg:py-20">
 
-      <!-- Subheadline -->
-      <p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-text-muted mb-4 leading-tight max-w-4xl mx-auto font-light">
-        Expert reviews for e-bike accessories built for
-      </p>
-      <p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-text mb-12 leading-tight max-w-4xl mx-auto font-bold">
-        hunting, fishing, and outdoor adventures.
-      </p>
+    <!-- Split Panel -->
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 items-center">
 
-      <!-- Feature Keywords -->
-      <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mb-12 text-sm sm:text-base md:text-lg">
-        <span class="text-text-muted">E-Bike Accessories</span>
-        <span class="text-text-muted/30">•</span>
-        <span class="text-text-muted">Hunting Gear</span>
-        <span class="text-text-muted/30">•</span>
-        <span class="text-text-muted">Fishing Rigs</span>
-        <span class="text-text-muted/30">•</span>
-        <span class="text-text-muted">Cargo Systems</span>
-        <span class="text-text-muted/30">•</span>
-        <span class="text-text-muted">Expert Reviews</span>
+      <!-- Left: Copy + CTAs -->
+      <div class="text-center lg:text-left order-2 lg:order-1 lg:pr-12">
+        <!-- Main Headline -->
+        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl font-display font-bold mb-5 leading-none tracking-tight">
+          FIND THE RIGHT GEAR.<br>
+          <span class="text-text-muted">SKIP THE GUESSWORK.</span>
+        </h1>
+
+        <!-- Subheadline -->
+        <p class="text-lg sm:text-xl md:text-2xl text-text-muted mb-1.5 leading-snug font-light">
+          Research-backed buying guides for e-bike accessories built for
+        </p>
+        <p class="text-lg sm:text-xl md:text-2xl text-text mb-6 leading-snug font-bold">
+          hunting, fishing, and outdoor adventures.
+        </p>
+
+        <!-- Feature Keywords -->
+        <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2 sm:gap-3 mb-8 text-sm">
+          <span class="px-3 py-1 bg-accent-sage/20 text-accent-sage-hover rounded-full">E-Bike Accessories</span>
+          <span class="text-accent-clay/50">•</span>
+          <span class="px-3 py-1 bg-accent-sage/20 text-accent-sage-hover rounded-full">Hunting Gear</span>
+          <span class="text-accent-clay/50">•</span>
+          <span class="px-3 py-1 bg-accent-sage/20 text-accent-sage-hover rounded-full">Fishing Rigs</span>
+          <span class="text-accent-clay/50">•</span>
+          <span class="px-3 py-1 bg-accent-sage/20 text-accent-sage-hover rounded-full">Cargo Systems</span>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-4">
+          <a href="/blog" class="bg-accent-terracotta text-white px-10 py-5 rounded-full font-bold text-lg transition-all hover:bg-accent-terracotta-hover hover:scale-105 inline-flex items-center justify-center gap-3 shadow-lg shadow-accent-terracotta/20">
+            BROWSE GUIDES
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="/about" class="border-2 border-accent-clay text-accent-clay px-10 py-5 rounded-full font-bold text-lg transition-all hover:bg-accent-clay hover:text-white inline-block text-center">
+            ABOUT US
+          </a>
+        </div>
+
+        <!-- Meta Info -->
+        <p class="text-sm text-text-muted/60 text-center lg:text-left">
+          Affiliate marketing site • Research-backed buying guides • Outdoor adventure focus
+        </p>
       </div>
 
-      <!-- CTA Buttons -->
-      <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-        <a href="/blog" class="bg-text text-background px-10 py-5 rounded-full font-bold text-lg transition-all hover:bg-text/90 hover:scale-105 inline-flex items-center justify-center gap-3">
-          BROWSE REVIEWS
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </a>
-        <a href="/about" class="border-2 border-text text-text px-10 py-5 rounded-full font-bold text-lg transition-all hover:bg-text hover:text-background inline-block text-center">
-          ABOUT US
-        </a>
+      <!-- Right: Illustration (theme-aware with soft dissolving edges) -->
+      <div class="order-1 lg:order-2 flex justify-center lg:justify-end">
+        <div class="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-none lg:w-full xl:w-[105%] xl:-mr-8 hero-illustration-container">
+          <!-- Light mode illustration (always visible as base layer) -->
+          <img
+            src="/hero-illustration.png"
+            alt="E-bike rider exploring a sunlit mountain trail with gear and panniers"
+            class="w-full"
+          />
+          <!-- Dark mode illustration (opacity controlled by JS for sequenced transitions) -->
+          <img
+            id="hero-dark-img"
+            src="/hero-illustration-dark.png"
+            alt="E-bike rider exploring a moonlit mountain trail with gear and panniers"
+            class="w-full absolute inset-0"
+          />
+        </div>
       </div>
-
-      <!-- Meta Info -->
-      <p class="text-sm text-text-muted/60">
-        Affiliate marketing site • Expert gear reviews • Outdoor adventure focus
-      </p>
     </div>
-
-    <!-- Large Feature Stats -->
-    <div class="max-w-4xl mx-auto mt-20 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
-      <div class="group">
-        <div class="text-4xl sm:text-5xl font-display font-bold mb-2 group-hover:scale-110 transition-transform">100+</div>
-        <div class="text-sm text-text-muted uppercase tracking-wider">Gear Reviews</div>
-      </div>
-      <div class="group">
-        <div class="text-4xl sm:text-5xl font-display font-bold mb-2 group-hover:scale-110 transition-transform">Expert</div>
-        <div class="text-sm text-text-muted uppercase tracking-wider">Tested & Reviewed</div>
-      </div>
-      <div class="group">
-        <div class="text-4xl sm:text-5xl font-display font-bold mb-2 group-hover:scale-110 transition-transform">Outdoor</div>
-        <div class="text-sm text-text-muted uppercase tracking-wider">Adventure Focus</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Animated Background Lines -->
-  <div class="absolute inset-0 overflow-hidden pointer-events-none">
-    <!-- Horizontal Lines -->
-    <div class="absolute top-1/4 left-0 w-full h-px bg-text opacity-5"></div>
-    <div class="absolute top-1/2 left-0 w-full h-px bg-text opacity-10"></div>
-    <div class="absolute top-3/4 left-0 w-full h-px bg-text opacity-5"></div>
-
-    <!-- Vertical Lines -->
-    <div class="absolute top-0 left-1/4 w-px h-full bg-text opacity-5"></div>
-    <div class="absolute top-0 left-1/2 w-px h-full bg-text opacity-10"></div>
-    <div class="absolute top-0 left-3/4 w-px h-full bg-text opacity-5"></div>
-  </div>
-
-  <!-- Corner Accents -->
-  <div class="absolute inset-0 pointer-events-none overflow-hidden">
-    <!-- Top Left Corner -->
-    <div class="absolute top-0 left-0 w-32 h-32 border-l-2 border-t-2 border-text opacity-20"></div>
-    <!-- Top Right Corner -->
-    <div class="absolute top-0 right-0 w-32 h-32 border-r-2 border-t-2 border-text opacity-20"></div>
-    <!-- Bottom Left Corner -->
-    <div class="absolute bottom-0 left-0 w-32 h-32 border-l-2 border-b-2 border-text opacity-20"></div>
-    <!-- Bottom Right Corner -->
-    <div class="absolute bottom-0 right-0 w-32 h-32 border-r-2 border-b-2 border-text opacity-20"></div>
   </div>
 </section>
+
+<style>
+  .hero-illustration-container {
+    -webkit-mask-image:
+      radial-gradient(ellipse 80% 70% at 55% 48%, rgba(0,0,0,1) 30%, rgba(0,0,0,0.6) 50%, transparent 70%),
+      radial-gradient(ellipse 60% 90% at 45% 55%, rgba(0,0,0,0.8) 25%, rgba(0,0,0,0.3) 50%, transparent 72%),
+      radial-gradient(ellipse 95% 60% at 60% 40%, rgba(0,0,0,0.7) 20%, rgba(0,0,0,0.2) 48%, transparent 68%);
+    mask-image:
+      radial-gradient(ellipse 80% 70% at 55% 48%, rgba(0,0,0,1) 30%, rgba(0,0,0,0.6) 50%, transparent 70%),
+      radial-gradient(ellipse 60% 90% at 45% 55%, rgba(0,0,0,0.8) 25%, rgba(0,0,0,0.3) 50%, transparent 72%),
+      radial-gradient(ellipse 95% 60% at 60% 40%, rgba(0,0,0,0.7) 20%, rgba(0,0,0,0.2) 48%, transparent 68%);
+    -webkit-mask-composite: source-over;
+    mask-composite: add;
+  }
+
+  #hero-dark-img {
+    transition: none;
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    function syncHeroDark() {
+      var img = document.getElementById('hero-dark-img');
+      if (!img) return;
+      var isDark = document.documentElement.classList.contains('dark');
+      // On page load, snap immediately (no transition)
+      img.style.transition = 'none';
+      img.style.opacity = isDark ? '1' : '0';
+      // Re-enable transition after paint
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          img.style.transition = '';
+        });
+      });
+    }
+
+    // Set initial state
+    syncHeroDark();
+
+    // Listen for theme changes dispatched by ThemeToggle
+    document.addEventListener('theme-will-change', function (e) {
+      var img = document.getElementById('hero-dark-img');
+      if (!img) return;
+      var newTheme = e.detail.theme;
+
+      if (newTheme === 'dark') {
+        // LIGHT → DARK: flip colors first, then fade dark image in
+        document.documentElement.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+        img.style.transition = 'none';
+        img.style.opacity = '1';
+      } else {
+        // DARK → LIGHT: flip colors first, then swap image instantly
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+        img.style.transition = 'none';
+        img.style.opacity = '0';
+      }
+    });
+
+    // Re-sync on View Transitions navigation
+    document.addEventListener('astro:after-swap', syncHeroDark);
+  })();
+</script>

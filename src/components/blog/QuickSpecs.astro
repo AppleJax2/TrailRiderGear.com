@@ -1,0 +1,132 @@
+---
+export interface Spec {
+  label: string;
+  value: string;
+  icon?: string;
+}
+
+export interface Props {
+  title?: string;
+  specs: Spec[];
+  highlighted?: boolean;
+}
+
+const { title, specs = [], highlighted = false } = Astro.props;
+
+const defaultIcons: Record<string, string> = {
+  weight: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18"/><rect x="8" y="3" width="8" height="18" rx="1"/></svg>`,
+  dimensions: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/></svg>`,
+  capacity: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>`,
+  material: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 22h20"/><path d="M2 6h20"/><path d="M2 10h20"/><path d="M2 14h20"/><path d="M2 18h20"/></svg>`,
+  warranty: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
+  rating: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`,
+  price: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>`,
+  mount: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v6"/><path d="M12 17v6"/><path d="M1 12h6"/><path d="M17 12h6"/></svg>`,
+  default: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>`
+};
+---
+
+<div class={`quick-specs ${highlighted ? 'highlighted' : ''}`}>
+  {title && <h4 class="specs-title">{title}</h4>}
+  
+  <div class="specs-grid">
+    {specs.map((spec) => {
+      const iconSvg = spec.icon && defaultIcons[spec.icon.toLowerCase()] 
+        ? defaultIcons[spec.icon.toLowerCase()] 
+        : defaultIcons.default;
+      
+      return (
+        <div class="spec-item">
+          <div class="spec-icon" set:html={iconSvg} />
+          <div class="spec-content">
+            <span class="spec-label">{spec.label}</span>
+            <span class="spec-value">{spec.value}</span>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</div>
+
+<style>
+  .quick-specs {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+  }
+  
+  .quick-specs.highlighted {
+    background: linear-gradient(135deg, rgba(139, 157, 119, 0.1) 0%, var(--color-surface) 100%);
+    border: 2px solid var(--color-primary);
+  }
+  
+  .specs-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .specs-title::before {
+    content: '';
+    width: 4px;
+    height: 20px;
+    background: var(--color-primary);
+    border-radius: 2px;
+  }
+  
+  .specs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+  
+  @media (max-width: 640px) {
+    .specs-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .spec-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background: var(--color-background);
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+  }
+  
+  .spec-icon {
+    color: var(--color-primary);
+    flex-shrink: 0;
+    margin-top: 0.125rem;
+  }
+  
+  .spec-content {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  
+  .spec-label {
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--color-text-muted);
+    margin-bottom: 0.125rem;
+  }
+  
+  .spec-value {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text);
+    line-height: 1.3;
+    word-break: break-word;
+  }
+</style>

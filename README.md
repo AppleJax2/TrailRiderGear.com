@@ -74,7 +74,7 @@ TrailRider Gear is a specialized affiliate marketing website focused on e-bike a
    GA_MEASUREMENT_ID=G-XXXXXXXXXX
    
    # Optional: Amazon Associates
-   AMAZON_ASSOCIATES_TAG=trailridgear-20
+   AMAZON_ASSOCIATES_TAG=trailridergea-20
    ```
 
 4. **Start development server**
@@ -151,7 +151,7 @@ Your review content here...
 - **Rating**: 4.5/5
 - **Best for**: Heavy rifles and rough terrain
 
-[View on Amazon](https://www.amazon.com/dp/B08XXXXX?tag=trailridgear-20)
+[View on Amazon](https://www.amazon.com/dp/B08XXXXX?tag=trailridergea-20)
 
 ## Affiliate Disclosure
 
@@ -175,7 +175,7 @@ This post contains affiliate links. We may earn commissions from qualifying purc
    import { buildAmazonLink } from '../lib/affiliate.js';
    
    const link = buildAmazonLink('B08XXXXX');
-   // Returns: https://www.amazon.com/dp/B08XXXXX?tag=trailridgear-20
+   // Returns: https://www.amazon.com/dp/B08XXXXX?tag=trailridergea-20
    ```
 
 ## Configuration

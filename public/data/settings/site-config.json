@@ -1,11 +1,11 @@
 {
   "title": "TrailRider Gear",
-  "description": "Expert reviews and buying guides for e-bike accessories built for hunting, fishing, and outdoor adventures. Find the best gear for your electric bike expeditions.",
+  "description": "Research-backed buying guides for e-bike accessories built for hunting, fishing, and outdoor adventures. Find the best gear for your electric bike expeditions.",
   "url": "https://trailridergear.com",
   "author": "TrailRider Gear Team",
-  "authorEmail": "info@trailridergear.com",
+  "authorEmail": "editor@trailridergear.com",
   "authorWebsite": "https://trailridergear.com",
-  "authorAvatar": "/Favicon.png",
+  "authorAvatar": "/images/authors/trailrider-team.jpg",
   "locale": "en",
   "ogImage": "/og-image.jpg",
   "navItems": [
@@ -14,12 +14,16 @@
       "href": "/"
     },
     {
-      "label": "Reviews",
-      "href": "/blog"
+      "label": "Fishing Gear",
+      "href": "/blog/category/fishing-gear"
     },
     {
-      "label": "Categories",
-      "href": "/blog/category"
+      "label": "Cargo Systems",
+      "href": "/blog/category/cargo-systems"
+    },
+    {
+      "label": "Storage",
+      "href": "/blog/category/storage-systems"
     },
     {
       "label": "About",
@@ -46,7 +50,7 @@
   "blogCTA": {
     "enabled": true,
     "title": "Get Gear Recommendations",
-    "description": "Join our newsletter for exclusive e-bike accessory guides and the best deals.",
+    "description": "Join our newsletter for exclusive e-bike accessory guides and the best deals on hunting and fishing gear.",
     "buttonText": "Subscribe",
     "buttonUrl": "#newsletter",
     "secondaryText": "No spam, just gear advice",

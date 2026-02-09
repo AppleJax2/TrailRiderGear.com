@@ -1,83 +1,37 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { formatDate, calculateReadingTime, extractHeadings, extractFAQ, extractReviews, slugify } from '../../lib/utils';
-import PostCard from '../../components/blog/PostCard.astro';
+import { formatDate, calculateReadingTime, extractHeadings, extractFAQ, extractReviews } from '../../lib/utils';
 import BlogSidebar from '../../components/blog/BlogSidebar.astro';
 import BackToTop from '../../components/blog/BackToTop.astro';
 import TableOfContents from '../../components/blog/TableOfContents.astro';
 import ReadingProgress from '../../components/blog/ReadingProgress.astro';
 import SocialShare from '../../components/blog/SocialShare.astro';
 import { SITE_CONFIG } from '../../data/site-config';
-import { getBlogPost, getPublishedBlogPosts, getAllBlogPosts, getAvailableLanguagesForPost } from '../../lib/posts';
+import { getCollection } from 'astro:content';
 import { normalizeTagName } from '../../lib/utils';
 import { DEFAULT_LANGUAGE } from '../../config/languages';
-import { marked } from 'marked';
 import fs from 'fs/promises';
 import path from 'path';
-
 
 // Enable prerendering for this page
 export const prerender = true;
 
 // Static paths for all blog posts
 export async function getStaticPaths() {
-  const posts = await getAllBlogPosts();
+  const posts = await getCollection('blog');
   return posts.map(post => ({
-    params: { slug: post.slug }
+    params: { slug: post.slug },
+    props: { post },
   }));
 }
 
-// Get the slug from the URL
-const { slug } = Astro.params;
+// Get the post from props
+const { post } = Astro.props;
 
-// Get the specific post
-const post = await getBlogPost(slug);
+// Render the MDX content
+const { Content } = await post.render();
 
-if (!post) {
-  return new Response(null, {
-    status: 404,
-    statusText: 'Post not found'
-  });
-}
-
-// Configure marked to add IDs to headings
-marked.use({
-  renderer: {
-    heading({ tokens, depth }) {
-      const text = this.parser.parseInline(tokens);
-      const slug = slugify(text);
-      return `<h${depth} id="${slug}">${text}</h${depth}>`;
-    }
-  }
-});
-
-// Convert markdown to HTML
-const contentHtml = marked(post.body);
-
-// Split content for multiple mid-article CTAs (Optimized 3-CTA strategy)
-const splitContentForCTAs = (html: string) => {
-  const paragraphs = html.split(/<\/p>/gi);
-  const totalParagraphs = paragraphs.length;
-
-  // CTA #1: Course awareness banner at ~15% (early, lightweight)
-  const firstSplitPoint = Math.min(3, Math.floor(totalParagraphs * 0.15));
-  // CTA #2: GitHub workflows at ~35% (free value, builds trust)
-  const secondSplitPoint = Math.floor(totalParagraphs * 0.35);
-  // CTA #3: Apatero alternative at ~50% (for readers who want no-code)
-  const thirdSplitPoint = Math.floor(totalParagraphs * 0.50);
-  // CTA #4: Main course CTA at ~65% (MAIN conversion - after value delivered)
-  const fourthSplitPoint = Math.floor(totalParagraphs * 0.65);
-
-  const beforeFirst = paragraphs.slice(0, firstSplitPoint).join('</p>') + '</p>';
-  const betweenFirstSecond = paragraphs.slice(firstSplitPoint, secondSplitPoint).join('</p>') + (firstSplitPoint < secondSplitPoint ? '</p>' : '');
-  const betweenSecondThird = paragraphs.slice(secondSplitPoint, thirdSplitPoint).join('</p>') + (secondSplitPoint < thirdSplitPoint ? '</p>' : '');
-  const betweenThirdFourth = paragraphs.slice(thirdSplitPoint, fourthSplitPoint).join('</p>') + (thirdSplitPoint < fourthSplitPoint ? '</p>' : '');
-  const afterFourth = paragraphs.slice(fourthSplitPoint).join('</p>');
-
-  return { beforeFirst, betweenFirstSecond, betweenSecondThird, betweenThirdFourth, afterFourth };
-};
-
-const { beforeFirst, betweenFirstSecond, betweenSecondThird, betweenThirdFourth, afterFourth } = splitContentForCTAs(contentHtml);
+const readingTime = calculateReadingTime(post.body);
 
 // Get author information
 let authorInfo = null;
@@ -90,16 +44,13 @@ try {
 }
 
 // Get related posts (same category)
-const allPosts = await getPublishedBlogPosts();
-const relatedPosts = allPosts.filter(p => 
+const allPosts = await getCollection('blog');
+const publishedPosts = allPosts.filter(p => !p.data.draft);
+const relatedPosts = publishedPosts.filter(p => 
   p.data.category === post.data.category && 
   p.slug !== post.slug
 );
 const relatedPostsLimited = relatedPosts.slice(0, 3);
-const featuredPost = allPosts.find(p => p.data.featured && p.slug !== post.slug) || 
-                     allPosts.find(p => p.slug !== post.slug);
-
-const readingTime = calculateReadingTime(post.body);
 
 // Extract headings for Table of Contents
 const headings = extractHeadings(post.body);
@@ -111,7 +62,7 @@ const faqItems = extractFAQ(post.body);
 const reviewItems = extractReviews(post.body);
 
 // Get available languages for this post (for hreflang tags)
-const availableLanguages = await getAvailableLanguagesForPost(slug);
+const availableLanguages: string[] = [];
 
 const articleData = {
   publishedTime: post.data.publishDate,
@@ -119,6 +70,7 @@ const articleData = {
   author: post.data.author,
   tags: post.data.tags,
 };
+
 ---
 
 <BaseLayout
@@ -135,7 +87,7 @@ const articleData = {
   siteName={SITE_CONFIG.title}
   currentLanguage={DEFAULT_LANGUAGE}
   availableLanguages={availableLanguages}
-  currentSlug={slug}
+  currentSlug={post.slug}
   faq={faqItems.length > 0 ? faqItems : undefined}
   reviews={reviewItems.length > 0 ? reviewItems : undefined}
 >
@@ -194,28 +146,10 @@ const articleData = {
     {/* Table of Contents */}
     <TableOfContents headings={headings} />
 
-    {/* Article Content - Part 1 (0-15%) */}
-    <div class="prose-custom" set:html={beforeFirst} />
-
-    {/* CTA #1 - Course Top Banner (15%) - Lightweight awareness */}
-
-    {/* Article Content - Part 2 (15-35%) */}
-    <div class="prose-custom" set:html={betweenFirstSecond} />
-
-    {/* CTA #2 - GitHub Workflows (35%) - Free value, builds trust */}
-
-    {/* Article Content - Part 3 (35-50%) */}
-    <div class="prose-custom" set:html={betweenSecondThird} />
-
-    {/* CTA #3 - Apatero Alternative (50%) - No-code option */}
-
-    {/* Article Content - Part 4 (50-65%) */}
-    <div class="prose-custom" set:html={betweenThirdFourth} />
-
-    {/* Article Content - Part 5 (65-100%) - Conclusion & advanced tips */}
-    <div class="prose-custom" set:html={afterFourth} />
-
-    {/* CTA #5 - Bottom Urgency CTA (100%) - Final conversion push */}
+    {/* Article Content */}
+    <div class="prose-custom">
+      <Content />
+    </div>
 
     {/* Social Share Buttons */}
     <SocialShare

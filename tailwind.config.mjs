@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
-  darkMode: ['variant', '@media (min-width: 768px) { &.dark }'],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -17,6 +17,28 @@ export default {
           DEFAULT: 'var(--color-text)',
           muted: 'var(--color-text-muted)',
           light: 'var(--color-text-light)',
+        },
+        accent: {
+          terracotta: {
+            DEFAULT: 'var(--color-accent-terracotta)',
+            hover: 'var(--color-accent-terracotta-hover)',
+          },
+          sand: {
+            DEFAULT: 'var(--color-accent-sand)',
+            hover: 'var(--color-accent-sand-hover)',
+          },
+          sage: {
+            DEFAULT: 'var(--color-accent-sage)',
+            hover: 'var(--color-accent-sage-hover)',
+          },
+          clay: {
+            DEFAULT: 'var(--color-accent-clay)',
+            hover: 'var(--color-accent-clay-hover)',
+          },
+          'warm-brown': {
+            DEFAULT: 'var(--color-accent-warm-brown)',
+            hover: 'var(--color-accent-warm-brown-hover)',
+          },
         },
       },
       fontFamily: {
