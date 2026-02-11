@@ -1,10 +1,10 @@
-# TrailRider Gear
+# E-Bike Field Guide
 
 Expert reviews and buying guides for e-bike accessories built for hunting, fishing, and outdoor adventures.
 
-## About TrailRider Gear
+## About E-Bike Field Guide
 
-TrailRider Gear is a specialized affiliate marketing website focused on e-bike accessories for outdoor enthusiasts. We provide honest, hands-on reviews of gear specifically designed to enhance your hunting, fishing, and backcountry adventures with electric bikes.
+E-Bike Field Guide is a specialized affiliate marketing website focused on e-bikes and accessories for outdoor enthusiasts. We provide research-backed buying guides for gear specifically designed to enhance your hunting, fishing, and backcountry adventures with electric bikes.
 
 ### Our Focus
 
@@ -48,8 +48,8 @@ TrailRider Gear is a specialized affiliate marketing website focused on e-bike a
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/trailrider-gear.git
-   cd trailrider-gear
+   git clone https://github.com/yourusername/ebike-field-guide.git
+   cd ebike-field-guide
    ```
 
 2. **Install dependencies**
@@ -67,7 +67,7 @@ TrailRider Gear is a specialized affiliate marketing website focused on e-bike a
    Edit `.env` with your configuration:
    ```env
    # Required: Admin credentials
-   ADMIN_EMAIL=admin@trailridergear.com
+   ADMIN_EMAIL=admin@ebikefieldguide.com
    ADMIN_PASS=your-secure-password-here
    
    # Optional: Analytics
@@ -102,7 +102,7 @@ TrailRider Gear is a specialized affiliate marketing website focused on e-bike a
 3. **Set Environment Variables**
    In Netlify dashboard > Site settings > Environment variables:
    ```
-   ADMIN_EMAIL=admin@trailridergear.com
+   ADMIN_EMAIL=admin@ebikefieldguide.com
    ADMIN_PASS=your-secure-password
    NODE_ENV=production
    ```
@@ -130,13 +130,13 @@ Create MDX files in `public/data/posts/`:
 title: "Best E-Bike Gun Racks for Hunting 2025"
 description: "Complete review of the top e-bike gun racks for hunters"
 publishDate: 2025-01-15T10:00:00.000Z
-author: "trailrider-team"
+author: "ebfg-team"
 category: "hunting-accessories"
 tags: ["gun-rack", "hunting", "e-bike", "review"]
 featured: true
 heroImage: "/blog-images/gun-rack-review.jpg"
 heroImageAlt: "E-bike with gun rack mounted"
-seoTitle: "Best E-Bike Gun Racks for Hunting 2025 - TrailRider Gear"
+seoTitle: "Best E-Bike Gun Racks for Hunting 2025 - E-Bike Field Guide"
 seoDescription: "Expert review of top e-bike gun racks for hunting. Compare features, prices, and durability."
 ---
 
@@ -186,10 +186,10 @@ Edit `public/data/settings/site-config.json`:
 
 ```json
 {
-  "title": "TrailRider Gear",
+  "title": "E-Bike Field Guide",
   "description": "Expert reviews for e-bike accessories built for hunting, fishing, and outdoor adventures",
-  "url": "https://trailridergear.com",
-  "author": "TrailRider Gear Team",
+  "url": "https://ebikefieldguide.com",
+  "author": "E-Bike Field Guide Team",
   "gaId": "G-XXXXXXXXXX"
 }
 ```
@@ -216,10 +216,10 @@ This project is licensed under the MIT License.
 
 ## Affiliate Disclaimer
 
-TrailRider Gear is a participant in affiliate marketing programs, including the Amazon Associates LLC Associates Program. We earn commissions from qualifying purchases made through our affiliate links at no extra cost to you.
+E-Bike Field Guide is a participant in affiliate marketing programs, including the Amazon Associates LLC Associates Program. We earn commissions from qualifying purchases made through our affiliate links at no extra cost to you.
 
 ---
 
 **Built with ❤️ for the outdoor e-bike community**
 
-Questions? Contact us at [info@trailridergear.com](mailto:info@trailridergear.com)
+Questions? Contact us at [info@ebikefieldguide.com](mailto:info@ebikefieldguide.com)

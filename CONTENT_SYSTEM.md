@@ -1,8 +1,8 @@
-# TrailRider Gear Content System
+# E-Bike Field Guide Content System
 
 ## What This Site Is
 
-TrailRiderGear.com is an **affiliate content engine**. It earns revenue through Amazon Associates links embedded in research-backed buying guides for e-bike accessories. Every blog post is a potential revenue-generating asset. The content IS the product.
+EBikeFieldGuide.com is an **affiliate content engine**. It earns revenue through Amazon Associates links embedded in research-backed buying guides for e-bike accessories. Every blog post is a potential revenue-generating asset. The content IS the product.
 
 ## Terminology
 

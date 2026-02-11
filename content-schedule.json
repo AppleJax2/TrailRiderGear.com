@@ -1,6 +1,6 @@
 {
   "meta": {
-    "description": "Master content schedule for TrailRiderGear.com. Prioritized by keyword search volume and commercial intent from kwrds.ai data (Feb 2026). Each post maps to products in scripts/product-library.json. Status: planned | in-progress | draft | published. Tier 1 = highest ROI (write first), Tier 2 = solid demand, Tier 3 = supporting content, Tier 4 = deprioritized.",
+    "description": "Master content schedule for EBikeFieldGuide.com. Prioritized by keyword search volume and commercial intent from kwrds.ai data (Feb 2026). Each post maps to products in scripts/product-library.json. Status: planned | in-progress | draft | published. Tier 1 = highest ROI (write first), Tier 2 = solid demand, Tier 3 = supporting content, Tier 4 = deprioritized.",
     "lastUpdated": "2026-02-08",
     "productLibrary": "scripts/product-library.json"
   },

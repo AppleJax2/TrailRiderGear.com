@@ -1,13 +1,13 @@
 {
   "authors": [
     {
-      "id": "trailrider-team",
-      "name": "TrailRider Gear Team",
-      "email": "editor@trailridergear.com",
+      "id": "ebfg-team",
+      "name": "E-Bike Field Guide Team",
+      "email": "editor@ebikefieldguide.com",
       "bio": "Outdoor enthusiasts and e-bike gear researchers dedicated to helping hunters and anglers find the best equipment for their electric bike adventures. We aggregate real user reviews, manufacturer specs, and field reports to give you honest, research-backed recommendations.",
-      "avatar": "/images/authors/trailrider-team.jpg",
+      "avatar": "/images/authors/ebfg-team.jpg",
       "social": {
-        "website": "https://trailridergear.com"
+        "website": "https://ebikefieldguide.com"
       }
     }
   ]

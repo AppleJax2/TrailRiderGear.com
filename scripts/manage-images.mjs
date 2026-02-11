@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Image Management Script for TrailRiderGear.com
+ * Image Management Script for EBikeFieldGuide.com
  * 
  * Manages a local image library manifest that maps to Cloudinary CDN.
  * Supports two modes:
@@ -14,7 +14,7 @@
  *   node scripts/manage-images.mjs upload --file public/blog-images/photo.jpg --slug best-hunting-ebikes-2026 --alt "Description"
  * 
  * Environment:
- *   PUBLIC_CLOUDINARY_CLOUD_NAME — your Cloudinary cloud name (default: trailridergear)
+ *   PUBLIC_CLOUDINARY_CLOUD_NAME — your Cloudinary cloud name (default: ebikefieldguide)
  *   CLOUDINARY_API_KEY — required for upload mode only
  *   CLOUDINARY_API_SECRET — required for upload mode only
  */
@@ -34,7 +34,7 @@ function loadLibrary() {
   }
   return {
     meta: {
-      description: 'Image library for TrailRiderGear.com. Maps images to Cloudinary CDN.',
+      description: 'Image library for EBikeFieldGuide.com. Maps images to Cloudinary CDN.',
       cloudName: CLOUD_NAME,
       lastUpdated: new Date().toISOString().split('T')[0],
     },
@@ -148,7 +148,7 @@ async function uploadImage(args) {
     process.exit(1);
   }
 
-  const publicId = `trailridergear/${slug}/${category}-${Date.now()}`;
+  const publicId = `ebikefieldguide/${slug}/${category}-${Date.now()}`;
 
   // Use Cloudinary upload API
   const timestamp = Math.floor(Date.now() / 1000);
@@ -231,7 +231,7 @@ switch (command) {
     break;
   default:
     console.log(`
-Image Management for TrailRiderGear.com
+Image Management for EBikeFieldGuide.com
 
 Commands:
   add      Add an external image URL (uses Cloudinary fetch/proxy)
@@ -244,7 +244,7 @@ Examples:
   node scripts/manage-images.mjs upload --file public/blog-images/photo.jpg --slug best-hunting-ebikes-2026 --alt "Trail photo"
 
 Environment Variables:
-  PUBLIC_CLOUDINARY_CLOUD_NAME  Cloudinary cloud name (default: trailridergear)
+  PUBLIC_CLOUDINARY_CLOUD_NAME  Cloudinary cloud name (default: ebikefieldguide)
   CLOUDINARY_API_KEY            Required for upload mode
   CLOUDINARY_API_SECRET         Required for upload mode
 `);

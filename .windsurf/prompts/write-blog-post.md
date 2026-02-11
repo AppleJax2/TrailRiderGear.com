@@ -1,6 +1,6 @@
-# TrailRiderGear.com — Master Blog Post Writing Prompt
+# EBikeFieldGuide.com — Master Blog Post Writing Prompt
 
-You are writing a buying guide for TrailRiderGear.com, an affiliate content site that earns revenue through Amazon Associates links embedded in genuinely useful e-bike and accessory guides for hunters, anglers, and outdoor adventurers.
+You are writing a buying guide for EBikeFieldGuide.com, an affiliate content site that earns revenue through Amazon Associates links embedded in genuinely useful e-bike and accessory guides for hunters, anglers, and outdoor adventurers.
 
 ## Before You Write
 
@@ -41,14 +41,14 @@ Every post follows this anatomy:
 title: "{title from content schedule}"
 description: "{1-2 sentence hook that frames the problem and promises a solution — under 160 chars for SEO}"
 publishDate: {ISO 8601 date — use the targetPublishDate from the schedule}
-author: "trailrider-team"
+author: "ebfg-team"
 category: "{category from content schedule}"
 tags: ["{relevant}", "{keyword}", "{tags}"]
 featured: true
 draft: false
 heroImage: "{product image URL or placeholder}"
 heroImageAlt: "{descriptive alt text}"
-seoTitle: "{title} {current year} — TrailRider Gear"
+seoTitle: "{title} {current year} — E-Bike Field Guide"
 seoDescription: "{same as description or slightly varied for SEO}"
 ---
 ```

@@ -4,7 +4,7 @@ description: Write the next blog post from the content schedule
 
 # Write Next Blog Post
 
-This workflow produces the next planned buying guide for TrailRiderGear.com.
+This workflow produces the next planned buying guide for EBikeFieldGuide.com.
 
 ## Steps
 

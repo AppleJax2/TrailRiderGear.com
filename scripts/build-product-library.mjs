@@ -148,7 +148,7 @@ async function fetchProduct(asin) {
 // ---------------------------------------------------------------------------
 async function main() {
   console.log('='.repeat(60));
-  console.log('TrailRiderGear.com — Product Library Builder');
+  console.log('EBikeFieldGuide.com — Product Library Builder');
   console.log(`Budget: ${ASINS.length} API calls | Key: ...${API_KEY.slice(-8)}`);
   console.log('='.repeat(60));
 

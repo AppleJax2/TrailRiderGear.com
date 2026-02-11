@@ -1,6 +1,6 @@
 // src/lib/amazon-creators-api.js
 // Node.js REST client for Amazon Creators API
-// Fetches real product images and data for TrailRiderGear
+// Fetches real product images and data for E-Bike Field Guide
 
 /**
  * Amazon Creators API Client

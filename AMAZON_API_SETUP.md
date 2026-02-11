@@ -1,4 +1,4 @@
-# Amazon Creators API Integration for TrailRiderGear
+# Amazon Creators API Integration for E-Bike Field Guide
 
 ## Overview
 Node.js REST client for Amazon Creators API to fetch real product images and data.

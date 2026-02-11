@@ -1,4 +1,4 @@
-# TrailRiderGear.com — Widget Bank
+# EBikeFieldGuide.com — Widget Bank
 
 Quick reference for all blog post components. Use this when integrating widgets into a new or existing post.
 

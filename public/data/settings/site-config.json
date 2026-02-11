@@ -1,11 +1,11 @@
 {
-  "title": "TrailRider Gear",
+  "title": "E-Bike Field Guide",
   "description": "Research-backed buying guides for e-bike accessories built for hunting, fishing, and outdoor adventures. Find the best gear for your electric bike expeditions.",
-  "url": "https://trailridergear.com",
-  "author": "TrailRider Gear Team",
-  "authorEmail": "editor@trailridergear.com",
-  "authorWebsite": "https://trailridergear.com",
-  "authorAvatar": "/images/authors/trailrider-team.jpg",
+  "url": "https://ebikefieldguide.com",
+  "author": "E-Bike Field Guide Team",
+  "authorEmail": "editor@ebikefieldguide.com",
+  "authorWebsite": "https://ebikefieldguide.com",
+  "authorAvatar": "/images/authors/ebfg-team.jpg",
   "locale": "en",
   "ogImage": "/og-image.jpg",
   "navItems": [
